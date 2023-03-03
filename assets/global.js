@@ -834,11 +834,13 @@ class VariantSelects extends HTMLElement {
   }
 
   renderProductInfo() {
-    document.querySelector('kueskipay-widget').style.display = 'none';
-    document.querySelector('kueskipay-widget').setAttribute('data-kpay-widget-amount', this.currentVariant.price);
-    setTimeout(() => {
-      document.querySelector('kueskipay-widget').style.display = 'block';
-    }, 500);
+    if (document.querySelector('kueskipay-widget')) {
+      document.querySelector('kueskipay-widget').style.display = 'none';
+      document.querySelector('kueskipay-widget').setAttribute('data-kpay-widget-amount', this.currentVariant.price);
+      setTimeout(() => {
+        document.querySelector('kueskipay-widget').style.display = 'block';
+      }, 500);
+    }    
     fetch(`${this.dataset.url}?variant=${this.currentVariant.id}&section_id=${this.dataset.originalSection ? this.dataset.originalSection : this.dataset.section}`)
       .then((response) => response.text())
       .then((responseText) => {
