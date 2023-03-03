@@ -1,0 +1,239 @@
+
+{{ 'black-friday.css' | asset_url | stylesheet_tag }}
+<div id="mo-game-wrapper" class="">
+  <div class="mo-game-container">
+    <div class="mo-off-tag">
+      <img src="{{ 'discount.svg' | asset_url }}">
+    </div>
+    <div class="mo-desc">
+      <div class="mo-title">{{ section.settings.title }}</div>
+      <div class="mo-details">
+        {{ section.settings.subtitle }}
+      </div>
+    </div>
+    {% assign pro1 = section.settings.product1 %}
+    {% assign pro2 = section.settings.product2 %}
+    {%- assign target1 = false -%}
+    {%- assign target2 = false -%}
+    {%- assign target3 = false -%}
+    {% assign pro1_in_cart = false %}
+    {% assign pro2_in_cart = false %}
+    {% assign to_add = '' %}
+    {% assign to_remove = '' %}
+    {% assign target_1 = section.settings.target1 | times : 100 %}
+    {% assign target_2 = section.settings.target2 | times : 100 %}
+    {% assign target_3 = section.settings.target3 | times : 100 %}
+    {% for item in cart.items %}
+      {% if pro1.id == item.product.id %}
+        {% assign pro1_in_cart = true %}
+      {% endif %}
+      {% if pro2.id == item.product.id %}
+        {% assign pro2_in_cart = true %}
+      {% endif %}
+    {% endfor %}
+    {%- if cart.total_price < target_1 -%}
+        {%- assign progress = 0 -%}
+        {% if pro1_in_cart %}
+          {% assign to_remove = pro1.selected_or_first_available_variant.id %}
+        {% endif %}
+        {% if pro2_in_cart %}
+          {% assign to_remove = pro1.selected_or_first_available_variant.id | append: ','| append: pro2.selected_or_first_available_variant.id %}
+        {% endif %}
+    {%- endif -%}
+    {%- if cart.total_price > target_1 and cart.total_price < target_2 -%}
+        {%- assign target1 = true -%}
+        {%- assign progress = 33.33 -%}
+        {% if pro2_in_cart %}
+          {% assign to_remove = pro2.selected_or_first_available_variant.id %}
+        {% endif %}
+        {% unless pro1_in_cart %}
+          {% assign to_add = pro1.selected_or_first_available_variant.id %}
+        {% endunless %}
+    {%- endif -%}
+    {%- if cart.total_price < target_3 and cart.total_price > target_2 -%}
+        {%- assign target1 = true -%}
+        {%- assign target2 = true -%}
+        {%- assign progress = 66.66 -%}
+        {% if pro1_in_cart %}
+          {% assign to_remove = pro1.selected_or_first_available_variant.id %}
+        {% endif %}
+        {% unless pro2_in_cart %}
+          {% assign to_add = pro2.selected_or_first_available_variant.id %}
+        {% endunless %}
+    {%- endif -%}
+    {%- if cart.total_price > target_3 or cart.total_price == target_3 -%}
+        {%- assign target1 = true -%}
+        {%- assign target2 = true -%}
+        {%- assign target3 = true -%}
+        {%- assign progress = 100 -%}
+        {% unless pro1_in_cart and pro2_in_cart %}
+          {% assign to_add = pro1.selected_or_first_available_variant.id | append: ','| append: pro2.selected_or_first_available_variant.id %}
+        {% else %}
+          {% unless pro1_in_cart %}
+            {% assign to_add = pro1.selected_or_first_available_variant.id %}
+          {% endunless %}
+          {% unless pro2_in_cart %}
+            {% assign to_add = pro2.selected_or_first_available_variant.id %}
+          {% endunless %}
+        {% endunless %}
+    {%- endif -%}
+    <div class="mo-game" {{ pro1_in_cart }}-{{ pro2_in_cart }}-mrkpro>
+      <span class="behind-text">
+    {% if target3 %}
+
+    {% elsif target2 %}
+Estás a {{ target_3 | minus: cart.total_price | money_without_trailing_zeros }} de un jabón Peaches & Cream y un borrador de vello Peach GRATIS
+    {% elsif target1 %}
+Estás a {{ target_2 | minus: cart.total_price | money_without_trailing_zeros }} de un borrador de vello Peach GRATIS
+
+    {% else %}
+  Estás a {{ target_1 | minus: cart.total_price | money_without_trailing_zeros }} de un jabón Peaches & Cream GRATIS
+    {% endif %}
+      </span>
+    {{section.settings.text}}
+      <div class="mo-info"></div>
+      <div class="mo-progress"
+        to_add="{{ to_add }}" to_remove="{{ to_remove }}"
+        target_1="{{ target_1 }}" target_2="{{ target_2 }}" target_3="{{ target_3 }}" product_1="{{ pro1.selected_or_first_available_variant.id }}" product_2="{{ pro2.selected_or_first_available_variant.id }}">
+        <div class="mo-icons">
+            <div class="mo-icon-container">
+                <div id="mo-icon-1" class="mo-icon mo-icon-1 {% if target1 %}active{% endif %}" product_id = "{{ pro1.selected_or_first_available_variant.id }}">
+                  <div class="mo-icon-img">
+                    <img class="lazyload" src="{{ pro1.featured_image | img_url: 'medium' }}">
+                  </div>
+                  <div class="mo-icon-bg"></div>
+                </div>
+                <div class="mo-icon-price">{{ section.settings.target1 | times : 100 | money_without_trailing_zeros }}
+                </div>
+                <div class="mo-icon-title">{{ section.settings.mrk1 }}
+                </div>
+            </div>
+            <div class="mo-icon-container">
+                <div id="mo-icon-2" class="mo-icon mo-icon-2 {% if target2 %}active{% endif %}" product_id = "{{ pro2.selected_or_first_available_variant.id }}">
+                  <div class="mo-icon-img">
+                    <img class="lazyload" src="{{ pro2.featured_image | img_url: 'medium' }}">
+                  </div>
+                  <div class="mo-icon-bg"></div>
+                </div>
+                <div class="mo-icon-price">{{ section.settings.target2 | times : 100 | money_without_trailing_zeros }}
+                </div>
+                <div class="mo-icon-title">{{ section.settings.mrk2 }}
+                </div>
+            </div>
+            <div class="mo-icon-container">
+                {% assign pro3 = section.settings.product3 %}
+                <div id="mo-icon-3" class="mo-icon mo-icon-3 {% if target3 %}active{% endif %}">
+                  <div class="mo-icon-img">
+                    <img class="lazyload" src="{{ section.settings.image | img_url: 'medium' }}">
+                  </div>
+                  <div class="mo-icon-bg"></div>
+                </div>
+                <div class="mo-icon-price">{{ section.settings.target3 | times : 100 | money_without_trailing_zeros }}
+                </div>
+                <div class="mo-icon-title">{{ section.settings.mrk3 }}
+                </div>
+            </div>
+        </div>
+        <div class="mo-progress-bar">
+          <div class="mo-progress-goals" {{ progress }} style="width: {{ progress }}%;"></div>
+        </div>
+      </div>
+    </div>
+    <div class="mo-commands">
+      <div class="mo-top">
+        <div class="mo-subtotal">
+          <div class="mo-label">Subtotal:</div>
+          <div class="mo-price">{{ cart.total_price | money_without_trailing_zeros }}</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+{% schema %}
+  {
+    "name": "Collection Banner",
+    "settings": [
+        {
+            "type": "text",
+            "id": "title",
+            "label": "Title",
+            "default": "BLACK FRIDAY"
+        },
+        {
+            "type": "html",
+            "id": "subtitle",
+            "label": "Sub Title"
+        },
+        {
+            "type": "html",
+            "id": "text",
+            "label": "Text"
+        },
+        {
+            "type": "product",
+            "id": "product1",
+            "label": "Product 1"
+        },
+        {
+            "type": "number",
+            "id": "target1",
+            "label": "Target 1",
+            "default": 500
+        },
+        {
+            "type": "text",
+            "id": "mrk1",
+            "label": "Text 1",
+            "default": "Soap"
+        },
+      {
+            "type": "product",
+            "id": "product2",
+            "label": "Product 2"
+        },
+        {
+            "type": "number",
+            "id": "target2",
+            "label": "Target 2",
+            "default": 700
+        },
+        {
+            "type": "text",
+            "id": "mrk2",
+            "label": "Text 2",
+            "default": "2nd Product"
+        },
+        {
+            "type": "number",
+            "id": "target3",
+            "label": "Target 3",
+            "default": 900
+        },
+        {
+            "type": "html",
+            "id": "mrk3",
+            "label": "Text 3",
+            "default": "Both"
+        },
+  {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+        }
+    ],
+    "presets": [
+        {
+            "category": "Collection Banner",
+            "name":"Collection Banner"
+        }
+    ]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

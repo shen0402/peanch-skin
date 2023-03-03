@@ -1,0 +1,339 @@
+<div class="mrk-tabs details-tabs">
+    <div class="mrk-tab-header">
+        <div class="tab-header-inner">
+            {% for block in section.blocks %}
+                <div class="tab-header-item{% if forloop.first %} active{% endif %}" tab_content="{{ block.settings.tab_title | handle}}-{{forloop.index}}">
+                    {{ block.settings.tab_title }}
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+    <div class="mrk-tab-content">
+        <div class="tab-content-inner">
+            {% for block in section.blocks %}
+                <div class="tab-header-item-mob{% if forloop.first %} active{% endif %}" tab_content="{{ block.settings.tab_title | handle}}-{{forloop.index}}">
+                    {{ block.settings.tab_title }}
+                    <svg viewBox="0 0 16 16" width="1em" height="1em" focusable="false" role="img" aria-label="chevron down" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi-chevron-down accordian-icon b-icon bi"><g><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z"></path></g></svg>
+                </div>
+                <div class="tab-content-item" {% unless forloop.first %}style="display:none"{% endunless %} content="{{ block.settings.tab_title | handle}}-{{forloop.index}}">
+                    {% if block.type == "tab-details" %}
+                        {% render 'tab-details', block: block %}
+                    {% elsif block.type == 'tab-ingredients' %}
+                        {%- render 'tab-ingredients', block: block -%}
+                    {% elsif block.type == 'tab-usage' %}
+                        {%- render 'tab-usage', block: block -%}
+                    {% endif %}
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+{% schema %}
+    {
+        "name": "New Tabs",
+        "settings": [
+            {
+                "type": "image_picker",
+                "id": "image",
+                "label": "Image"
+            },
+            {
+                "type": "text",
+                "id": "title",
+                "label": "Title",
+                "default": "Sudisfaction Guaranteed"
+            },
+            {
+                "type": "text",
+                "id": "text",
+                "label": "Text",
+                "default": "Rest easy. If this isn't the best natural product you've ever used, it's on us."
+            }
+        ],
+        "blocks": [
+            {
+                "type": "tab-details",
+                "name": "Details",
+                "settings": [
+                    {
+                        "type": "text",
+                        "id": "tab_title",
+                        "label": "Tab Title"
+                    },
+                    {
+                        "type": "text",
+                        "id": "video_url",
+                        "label": "Video URL"
+                    },
+                    {
+                        "type": "text",
+                        "id": "caption",
+                        "default": "Add a tagline",
+                        "label": "t:sections.image-with-text.blocks.caption.settings.text.label"
+                    },
+                    {
+                        "type": "text",
+                        "id": "heading",
+                        "default": "Image with text",
+                        "label": "t:sections.image-with-text.blocks.heading.settings.heading.label"
+                    },
+                    {
+                        "type": "text",
+                        "id": "subheading",
+                        "default": "Subheading",
+                        "label": "Sub Heading"
+                    },
+                    {
+                        "type": "richtext",
+                        "id": "text",
+                        "default": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+                        "label": "t:sections.image-with-text.blocks.text.settings.text.label"
+                    },
+                    {
+                        "type": "text",
+                        "id": "point1",
+                        "label": "Text 1",
+                        "default": "Medium Grit"
+                    },
+                    {
+                        "type": "text",
+                        "id": "point2",
+                        "label": "Text 2",
+                        "default": "Medium Grit"
+                    },
+                    {
+                        "type": "text",
+                        "id": "point3",
+                        "label": "Text 3",
+                        "default": "Medium Grit"
+                    },
+                    {
+                        "type": "header",
+                        "content": "Icons"
+                    },
+                    {
+                        "type": "image_picker",
+                        "id": "icon1",
+                        "label": "Icon 1"
+                    },
+                    {
+                        "type": "text",
+                        "id": "icon_text1",
+                        "label": "Text 1",
+                        "default": "Made from natural oils"
+                    },
+                    {
+                        "type": "image_picker",
+                        "id": "icon2",
+                        "label": "Icon 2"
+                    },
+                    {
+                        "type": "text",
+                        "id": "icon_text2",
+                        "label": "Text 2",
+                        "default": "Made from natural oils"
+                    },
+                    {
+                        "type": "image_picker",
+                        "id": "icon3",
+                        "label": "Icon 3"
+                    },
+                    {
+                        "type": "text",
+                        "id": "icon_text3",
+                        "label": "Text 3",
+                        "default": "Made from natural oils"
+                    },
+                    {
+                        "type": "image_picker",
+                        "id": "icon4",
+                        "label": "Icon 4"
+                    },
+                    {
+                        "type": "text",
+                        "id": "icon_text4",
+                        "label": "Text 4",
+                        "default": "Made from natural oils"
+                    },
+                    {
+                        "type": "richtext",
+                        "id": "sub_text",
+                        "label": "Sub Text",
+                        "default": "<p>Some bars contain exfoliants; excessive or forceful exfoliation can be damaging to your skin, so Squatch says don't over-scrub and don't use on sensitive areas!</p>"
+                    }
+                ]
+            },
+            {
+                "type": "tab-ingredients",
+                "name": "Ingredients",
+                "settings": [
+                    {
+                        "type": "text",
+                        "id": "tab_title",
+                        "label": "Tab Title"
+                    },
+                    {
+                        "type": "text",
+                        "id": "heading",
+                        "default": "Changing the way men approach personal care by providing the finest ingredients nature has to offer",
+                        "label": "Title"
+                    },
+                    {
+                        "type": "text",
+                        "id": "btn",
+                        "default": "See All Ingredients",
+                        "label": "Button Title"
+                    },
+                    {
+                        "type": "richtext",
+                        "id": "sub_text",
+                        "label": "Sub Text",
+                        "default": "<p>Some bars contain exfoliants; excessive or forceful exfoliation can be damaging to your skin, so Squatch says don't over-scrub and don't use on sensitive areas!</p>"
+                    },
+                    {
+                        "type": "text",
+                        "id": "popup_title",
+                        "label": "Title"
+                    },
+                    {
+                        "type": "richtext",
+                        "id": "popup_text",
+                        "label": "Content"
+                    },
+                    {
+                        "id": "page",
+                        "type": "page",
+                        "label": "Page"
+                    },
+                    {
+                        "type": "header",
+                        "content": "Column 1"
+                    },
+                    {
+                        "type": "image_picker",
+                        "id": "image1",
+                        "label": "Image 1"
+                    },
+                    {
+                        "type": "text",
+                        "id": "title1",
+                        "label": "Title 1",
+                        "default": "Jimmy Red Cornmeal"
+                    },
+                    {
+                        "type": "text",
+                        "id": "subtitle1",
+                        "label": "SubTitle 1",
+                        "default": "Exfoliant"
+                    },
+                    {
+                        "type": "richtext",
+                        "id": "text1",
+                        "label": "Text 1",
+                        "default": "<p>Jimmy red cornmeal makes an invigorating exfoliant as it removes dirt from the pores, eliminates dead skin cells, and leaves your skin smooth without over drying.</p>"
+                    },
+                    {
+                        "type": "header",
+                        "content": "Column 2"
+                    },
+                    {
+                        "type": "image_picker",
+                        "id": "image2",
+                        "label": "Image 2"
+                    },
+                    {
+                        "type": "text",
+                        "id": "title2",
+                        "label": "Title 2",
+                        "default": "Jimmy Red Cornmeal"
+                    },
+                    {
+                        "type": "text",
+                        "id": "subtitle2",
+                        "label": "SubTitle 2",
+                        "default": "Exfoliant"
+                    },
+                    {
+                        "type": "richtext",
+                        "id": "text2",
+                        "label": "Text 2",
+                        "default": "<p>Jimmy red cornmeal makes an invigorating exfoliant as it removes dirt from the pores, eliminates dead skin cells, and leaves your skin smooth without over drying.</p>"
+                    },
+                    {
+                        "type": "header",
+                        "content": "Column 3"
+                    },
+                    {
+                        "type": "image_picker",
+                        "id": "image3",
+                        "label": "Image 3"
+                    },
+                    {
+                        "type": "text",
+                        "id": "title3",
+                        "label": "Title 3",
+                        "default": "Jimmy Red Cornmeal"
+                    },
+                    {
+                        "type": "text",
+                        "id": "subtitle3",
+                        "label": "SubTitle 3",
+                        "default": "Exfoliant"
+                    },
+                    {
+                        "type": "richtext",
+                        "id": "text3",
+                        "label": "Text 3",
+                        "default": "<p>Jimmy red cornmeal makes an invigorating exfoliant as it removes dirt from the pores, eliminates dead skin cells, and leaves your skin smooth without over drying.</p>"
+                    }
+                ]
+            },
+            {
+                "type": "tab-usage",
+                "name": "Usage",
+                "settings": [
+                    {
+                        "type": "text",
+                        "id": "tab_title",
+                        "label": "Tab Title"
+                    },
+                    {
+                        "type": "image_picker",
+                        "id": "image",
+                        "label": "Image"
+                    },
+                    {
+                        "type": "text",
+                        "id": "heading",
+                        "default": "Image with text",
+                        "label": "Heading"
+                    },
+                    {
+                        "type": "text",
+                        "id": "subheading",
+                        "default": "Subheading",
+                        "label": "Sub Heading"
+                    },
+                    {
+                        "type": "richtext",
+                        "id": "text",
+                        "default": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+                        "label": "t:sections.image-with-text.blocks.text.settings.text.label"
+                    },
+                    {
+                        "type": "richtext",
+                        "id": "sub_text",
+                        "label": "Sub Text",
+                        "default": "<p>Some bars contain exfoliants; excessive or forceful exfoliation can be damaging to your skin, so Squatch says don't over-scrub and don't use on sensitive areas!</p>"
+                    }
+                ]
+            }
+        ],
+        "presets": [
+            {
+                "name":"New Tabs"
+            }
+        ]
+    }
+{% endschema %}
+

@@ -1,0 +1,98 @@
+<section class="pro_vid_img_sec">
+    <div class="page-width">
+        <div class="pro_vid_img_row">
+            <div class="vid_img_box">
+                <iframe width="100%" height="100%" frameborder="0" allow="fullscreen; picture-in-picture"
+                    title="vimeo Video Player"
+                    src="{{section.settings.video_url}}"></iframe>
+            </div>
+            <div class="text_box">
+                <h3>{{section.settings.title}}</h3>
+                <div class="pro_icon_text">
+                    {% for block in section.blocks %}
+                        <div class="item">
+                            <div class="progress_icn">
+                                <div class="icon_progress" role="progressbar" aria-valuenow="{{block.settings.percent}}" aria-valuemin="0"
+                                    aria-valuemax="100" style="--value: {{block.settings.percent}}"></div>
+                            </div>
+                            <div class="text"> {{block.settings.text}} </div>
+                        </div>
+                    {% endfor %}
+                </div>
+                <div class="b-product-card__benefits-asterisk">
+                    <p> {{section.settings.subtext}}</p>
+                </div>
+                <div class="vid_img_btn">
+                    <p>
+                        <a class="btn" href="{{section.settings.btn_url}}">
+                            <span>{{section.settings.btn}}</span>
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% schema %}
+{
+  "name": "Future is hair Free",
+  "class": "section",
+  "tag": "section",
+  "settings": [
+        {
+            "type": "text",
+            "id": "title",
+            "label": "Title",
+            "default": "The Future is Hair-Free! 💜"
+        },
+        {
+            "type": "text",
+            "id": "video_url",
+            "label": "Video URL",
+           "default": "https://player.vimeo.com/video/702485803?autoplay=1&amp;playsinline=1&color&aautopause=0&loop=1&muted=1&title=1&portrait=1&byline=1"
+        },
+        {
+            "type": "text",
+            "id": "subtext",
+            "label": "Subtext",
+            "default": "* Results according to clinical/consumer studies. For more information refer to each product page."
+        },
+        {
+            "type": "text",
+            "id": "btn",
+            "label": "Button Label",
+            "default": "BUY IT NOW"
+        },
+        {
+            "type": "url",
+            "id": "btn_url",
+            "label": "Button URL"
+        }
+  ],
+  "blocks": [
+        {
+            "type": "Percent",
+            "name": "Percent",
+            "settings": [
+                {
+                    "type": "number",
+                    "id": "percent",
+                    "label": "Percent",
+                    "default": 95
+                },
+                {
+                    "type": "text",
+                    "id": "text",
+                    "label": "Text",
+                    "default": "Said the appearance of their strawberry legs improved"
+                }
+            ]
+        }
+    ],
+  "presets": [
+        {
+            "name": "Future is hair Free"
+        }
+    ]
+}
+{% endschema %}

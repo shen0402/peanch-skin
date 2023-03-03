@@ -1,0 +1,36 @@
+<div class="sudisfaction-guarantee">
+    <div class="sudisfaction-container">
+        <img src="{{ section.settings.image | img_url: 'master' }}" alt="squatch-foot" class="foot-icon">
+        <h6 class="title">{{ section.settings.title }}</h6>
+        <p class="text">{{ section.settings.text }}</p>
+    </div>
+</div>
+{% schema %}
+    {
+        "name": "Guaranteed Section",
+        "settings": [
+            {
+                "type": "image_picker",
+                "id": "image",
+                "label": "Image"
+            },
+            {
+                "type": "text",
+                "id": "title",
+                "label": "Title",
+                "default": "Sudisfaction Guaranteed"
+            },
+            {
+                "type": "text",
+                "id": "text",
+                "label": "Text",
+                "default": "Rest easy. If this isn't the best natural product you've ever used, it's on us."
+            }
+        ],
+        "presets": [
+            {
+                "name":"Sudisfaction Guaranteed"
+            }
+        ]
+    }
+{% endschema %}

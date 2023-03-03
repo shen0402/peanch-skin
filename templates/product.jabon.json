@@ -1,0 +1,971 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product-1",
+      "blocks": {
+        "vendor": {
+          "type": "text",
+          "settings": {
+            "text": "Jabón en Barra",
+            "text_style": "uppercase"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "5eeee072-a0b1-4552-8dc9-f942bfc58f4c": {
+          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "caption": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "ca75d631-23f7-4e70-829b-a00e97fdecbf": {
+          "type": "shopify:\/\/apps\/aplazo-banner\/blocks\/product-banner\/baf789e0-a296-4b10-bc87-11417720714b",
+          "settings": {
+            "aplazo_theme": ""
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "a6cd7101-46e3-4789-a1b6-88328c9feb65": {
+          "type": "icons",
+          "disabled": true,
+          "settings": {
+            "image1": "shopify:\/\/shop_images\/airplane_3.png",
+            "title1": "Envío Inmediato",
+            "image2": "shopify:\/\/shop_images\/calendar_d89cdd4b-731a-483c-add0-3eec22d99ee3.png",
+            "title2": "Garantía de 30 días",
+            "title3": ""
+          }
+        },
+        "f3518e4b-2afc-4b56-b871-9842493dfb7d": {
+          "type": "shopify:\/\/apps\/appstle-subscriptions\/blocks\/appstle-subscription-product-page-widget\/fe257d39-6f88-4f35-ab08-bd437e3aa94e",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "swatch"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false
+          }
+        },
+        "8ea5dac8-8acf-4831-8bf7-cd14d0fcc272": {
+          "type": "shopify:\/\/apps\/trust-badges-bear\/blocks\/widget\/163a9b59-0ec2-4cb7-bf5c-31408b4a9420",
+          "settings": {
+          }
+        },
+        "6c3edee7-f774-4252-9036-87d1d9498724": {
+          "type": "small-icons-with-text",
+          "settings": {
+            "icon1": "shopify:\/\/shop_images\/cycle.png",
+            "title1": "Huele a:",
+            "text1": "Duraznos con crema",
+            "icon2": "shopify:\/\/shop_images\/clean_new.png",
+            "title2": "Nivel de exfoliación:",
+            "text2": "Ligera"
+          }
+        },
+        "collapsible-row-1": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "¿Cómo funciona?",
+            "icon": "star",
+            "content": "<p>Peach está diseñado con<strong> nano-tecnología cristralina<\/strong><em>,<\/em> la cual permite que al frotarlo con la piel agrupe y remueva el vello en segundos sin dolor ni causar irritación. <br\/><br\/>Este proceso también exfolia gentilmente la piel, lo que hace que la piel quede súper suave inmediatamente después de utilizarlo 🧡<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible-row-2": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "Instrucciones",
+            "icon": "check_mark",
+            "content": "<p>Te recomendamos utilizarlo sobre la piel seca después de bañarte.<\/p><p>Mediante una presión moderada (no muy fuerte), simplemente frótalo sobre la superficie deseada realizando movimientos circulares.<br\/><br\/>Realiza de 3 a 5 vueltas cortas para que la totalidad del vello desaparezca y tu piel quede súper suave y libre de vello.<\/p><p>Después de utilizarlo te recomendamos aplicar crema y listo. <\/p><p>Tu borrador puedes lavarlo con agua después de utilizarlo.<\/p>",
+            "page": ""
+          }
+        },
+        "8a9c0b5b-3bc2-4af2-93be-252f61618c76": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "¿En qué zonas lo puedo utilizar?",
+            "icon": "silhouette",
+            "content": "<p>El borrador de vello Peach es perfecto para la zona del bikini, brazos, nudillos, pecho, abdomen, espalda y piernas.<\/p>",
+            "page": ""
+          }
+        },
+        "collapsible-row-3": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "Envío",
+            "icon": "truck",
+            "content": "<p>El costo de envío para todo México es de $69.<br\/><br\/>Para órdenes de dúos y triples el envío va por nuestra cuenta y es completamente <strong>GRATIS.<br\/><br\/><\/strong>Órdenes fuera de México el envío se calcula en el <em>checkout<\/em>.<br\/><br\/>Enviamos desde la Ciudad de México 😊<\/p>",
+            "page": ""
+          }
+        },
+        "261786e6-2172-4638-9808-c7f4f769e028": {
+          "type": "collapsible_tab",
+          "disabled": true,
+          "settings": {
+            "heading": "Garantía",
+            "icon": "heart",
+            "content": "<p>Estamos muy seguros de la tecnología que nos respalda, por lo que todas las órdenes cuentan con una garantía de 30 días, en donde si no te gusta te devolvemos el 100% de tu dinero :)<\/p>",
+            "page": ""
+          }
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+            "share_label": "Compartir"
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "5eeee072-a0b1-4552-8dc9-f942bfc58f4c",
+        "caption",
+        "price",
+        "ca75d631-23f7-4e70-829b-a00e97fdecbf",
+        "description",
+        "a6cd7101-46e3-4789-a1b6-88328c9feb65",
+        "f3518e4b-2afc-4b56-b871-9842493dfb7d",
+        "variant_picker",
+        "quantity_selector",
+        "buy_buttons",
+        "8ea5dac8-8acf-4831-8bf7-cd14d0fcc272",
+        "6c3edee7-f774-4252-9036-87d1d9498724",
+        "collapsible-row-1",
+        "collapsible-row-2",
+        "8a9c0b5b-3bc2-4af2-93be-252f61618c76",
+        "collapsible-row-3",
+        "261786e6-2172-4638-9808-c7f4f769e028",
+        "share"
+      ],
+      "settings": {
+        "free_shipping": "",
+        "enable_sticky_info": true,
+        "gallery_layout": "thumbnail_slider",
+        "media_size": "small",
+        "mobile_thumbnails": "hide",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "62b58b30-68a7-4b83-b2ef-54ed3f46a316": {
+      "type": "logo-list",
+      "blocks": {
+        "10de3410-4c3b-41a6-ac81-c40411d87cd2": {
+          "type": "Logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Glamour-min.png"
+          }
+        },
+        "ab181d5e-7406-42db-99d5-6fcc6bf4c754": {
+          "type": "Logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Elle-min.png"
+          }
+        },
+        "643bdaa6-7570-4a39-86a0-04a34ea586b6": {
+          "type": "Logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Cosmopolitan-min.png"
+          }
+        },
+        "9b2edbcc-949f-48c8-bb71-44418dc14859": {
+          "type": "Logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Vanidades-min.png"
+          }
+        },
+        "4d8fbed0-29ac-46dd-8691-d847b1c16070": {
+          "type": "Logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Marie-min.png"
+          }
+        }
+      },
+      "block_order": [
+        "10de3410-4c3b-41a6-ac81-c40411d87cd2",
+        "ab181d5e-7406-42db-99d5-6fcc6bf4c754",
+        "643bdaa6-7570-4a39-86a0-04a34ea586b6",
+        "9b2edbcc-949f-48c8-bb71-44418dc14859",
+        "4d8fbed0-29ac-46dd-8691-d847b1c16070"
+      ],
+      "settings": {
+        "title": "visto en"
+      }
+    },
+    "122268cc-5044-4490-b22d-a7bda9396d86": {
+      "type": "guarentee",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/smiling-face-with-smiling-eyes.png",
+        "title": "SATISFACCIÓN GARANTIZADA",
+        "text": "Si este no es el mejor jabón en barra que jamás hayas probado, va por nuestra cuenta."
+      }
+    },
+    "e60b77de-1977-43bb-ac80-dcff4f61747b": {
+      "type": "tabs-new",
+      "blocks": {
+        "ea7ff4fd-fe65-4d0c-a3ac-9e5c95cf1f32": {
+          "type": "tab-details",
+          "settings": {
+            "tab_title": "Detalles",
+            "video_url": "https:\/\/player.vimeo.com\/video\/779296214?autoplay=1&playsinline=1&color&aautopause=0&loop=1&muted=1&title=1&portrait=1&byline=1",
+            "caption": "Tu piel bajo control",
+            "heading": "Peaches & Cream ",
+            "subheading": "Duraznos con crema",
+            "text": "<p>Viaja a un mundo cremoso y reconfortante cada vez que uses tu <em>Peaches & Cream<\/em>. Al momento de que entre en contacto con el agua una fiesta de espuma comenzará, desprendiendo notas afrutadas y amaderadas, para dejar tu piel súper limpia, hidratada y contenta.<\/p>",
+            "point1": "",
+            "point2": "",
+            "point3": "Barra de 130 gramos.",
+            "icon1": "shopify:\/\/shop_images\/5.01-2000x2000-Pingo-EN-107809.png",
+            "icon_text1": "Vegano",
+            "icon2": "shopify:\/\/shop_images\/6.01-2000x2000-Pingo-EN-107809.png",
+            "icon_text2": "Libre de crueldad animal",
+            "icon3": "shopify:\/\/shop_images\/8.01-2000x2000-Pingo-EN-107809.png",
+            "icon_text3": "Sustentable",
+            "icon4": "shopify:\/\/shop_images\/7.01-2000x2000-Pingo-EN-107809.png",
+            "icon_text4": "Libre de químicos agresivos",
+            "sub_text": ""
+          }
+        },
+        "945e2ed1-852c-4922-9566-a6bfade1bc78": {
+          "type": "tab-ingredients",
+          "settings": {
+            "tab_title": "Ingredientes",
+            "heading": "Revolucionando la manera en la que las personas cuidan su piel con exclusivamente ingredientes increíbles",
+            "btn": "VER TODOS LOS INGREDIENTES",
+            "sub_text": "",
+            "popup_title": "",
+            "popup_text": "<p><strong>Ingredientes<\/strong>: Glicerina Vegetal, Aceite de Coco Aceite de Oliva, Hidróxido de Sodio, Manteca de Karité, Aqua (Agua), Vitamina E, Fragancia, Extracto de Avena, Caolín, Hojuelas de Avena.<\/p>",
+            "page": "",
+            "image1": "shopify:\/\/shop_images\/vegetable-sunflower-olive-oil-frozen-motion-splash-with-droplets-bubble.jpg",
+            "title1": "ACEITE DE OLIVO",
+            "subtitle1": "Repara y Previene",
+            "text1": "<p>El aceite de olivo es un excelente agente reparador que trata inmediatamente la sequedad en la piel y previene el envejecimiento celular.<\/p>",
+            "image2": "shopify:\/\/shop_images\/shea_butter.png",
+            "title2": "MANTECA DE KARITÉ",
+            "subtitle2": "Hidrata y Suaviza",
+            "text2": "<p>Una de las fuentes naturales que mayor hidratación aportan a la piel, ayudándola a su vez a retener la humectación, firmeza y elasticidad.<\/p>",
+            "image3": "shopify:\/\/shop_images\/oats.jpg",
+            "title3": "EXTRACTO DE AVENA",
+            "subtitle3": "Calma y Nutre",
+            "text3": "<p>La avena es una rica fuente de vitaminas que posee propiedades calmantes, anti-inflamatorias y antioxidantes. Su aplicación en la piel calma y disminuye inmediatamente el ardor y picazón.<\/p>"
+          }
+        },
+        "769ef717-ba5e-418c-9238-13ab216d7f26": {
+          "type": "tab-usage",
+          "settings": {
+            "tab_title": "Modo de Uso",
+            "image": "shopify:\/\/shop_images\/Soap2-min.png",
+            "heading": "Modo de Uso",
+            "subheading": "",
+            "text": "<p>Frota el jabón sobre tu piel húmeda o mojada hasta lograr espuma abundante, enjuaga con agua tibia y seca dando ligeros golpecitos. <\/p><p>Utilízalo mañana y noche.<\/p><p>Es perfecto para todos los tipos de piel.<\/p>",
+            "sub_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "ea7ff4fd-fe65-4d0c-a3ac-9e5c95cf1f32",
+        "945e2ed1-852c-4922-9566-a6bfade1bc78",
+        "769ef717-ba5e-418c-9238-13ab216d7f26"
+      ],
+      "settings": {
+        "title": "Sudisfaction Guaranteed",
+        "text": "Rest easy. If this isn't the best natural product you've ever used, it's on us."
+      }
+    },
+    "16631496157d60a22e": {
+      "type": "review-main",
+      "blocks": {
+        "6e9d6e4f-f64f-469f-8a96-2d777953769c": {
+          "type": "review",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/beautiful-woman-wearing-casual-denim-jacket-isolated-wall-hands-together-fingers-crossed-smiling-relaxed-cheerful-success-optimistic-min.jpg",
+            "title": "¨Este jabón me fascinó, no sientes esa sensación seca que te dejan otros jabones, sino todo lo contrario, te deja la piel súper suavecita, hidratada y oliendo deli 😍¨",
+            "subtext": "<p><strong>Mónica A. <\/strong><\/p>",
+            "subtext2": "Comprador Verificado"
+          }
+        }
+      },
+      "block_order": [
+        "6e9d6e4f-f64f-469f-8a96-2d777953769c"
+      ],
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 40
+      }
+    },
+    "166296727286919b57": {
+      "type": "compare-image-section",
+      "disabled": true,
+      "blocks": {
+        "536ed112-c029-4cc5-b13c-a3a7926603b1": {
+          "type": "text",
+          "settings": {
+            "title": "Fácil de usar",
+            "text": "<p>Simplemente frótalo sobre tu piel mediante movimientos circulares ¡y listo!<br\/><\/p>"
+          }
+        },
+        "637bacb8-3a28-48f2-b301-014e1b83bed0": {
+          "type": "text",
+          "settings": {
+            "title": "Reutilizable",
+            "text": "<p>No necesitas repuestas ni recargarlo, tu borrador tiene una vida útil de hasta 1 año.<br\/><\/p>"
+          }
+        },
+        "4f36957e-dfdf-4365-b7cc-2dea0a5d0843": {
+          "type": "text",
+          "settings": {
+            "title": "Práctico",
+            "text": "<p>A diferencia de los rastrillos, puedes llevar tu borrador a donde quiera que vayas.<br\/><\/p>"
+          }
+        },
+        "7b21f72b-20b4-4e99-a169-7a01e56c86fd": {
+          "type": "text",
+          "settings": {
+            "title": "Previene vellos enterrados",
+            "text": "<p>La tecnología microcristalina de Peach está diseñada para prevenir la aparición de vellos enterrados.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "536ed112-c029-4cc5-b13c-a3a7926603b1",
+        "637bacb8-3a28-48f2-b301-014e1b83bed0",
+        "4f36957e-dfdf-4365-b7cc-2dea0a5d0843",
+        "7b21f72b-20b4-4e99-a169-7a01e56c86fd"
+      ],
+      "settings": {
+        "image1": "shopify:\/\/shop_images\/Before1.jpg",
+        "image2": "shopify:\/\/shop_images\/After.jpg",
+        "title": "Adiós velludos problemas",
+        "text": "<p>Una piel libre de vello jamás había sido tan fácil de lograr como con Peach. Nuestro borrador de vello se encarga de asegurarte una piel libre de vello y súper suave en segundos.<\/p>"
+      }
+    },
+    "1663147365fed27175": {
+      "type": "hairfree",
+      "disabled": true,
+      "blocks": {
+        "08970b47-c67c-4001-a320-1ec44d3f5b88": {
+          "type": "Percent",
+          "settings": {
+            "percent": 97,
+            "text": "Dijeron enfáticamente que mejoró el aspecto de su piel."
+          }
+        },
+        "4a6dbe35-558a-4ee3-9930-04c9ecf2c642": {
+          "type": "Percent",
+          "settings": {
+            "percent": 95,
+            "text": "Notaron una reducción de vellos enterrados."
+          }
+        },
+        "410f0975-72cd-4356-bc8f-8560201f2960": {
+          "type": "Percent",
+          "settings": {
+            "percent": 91,
+            "text": "Sintieron inmediatamente su piel más firme y suave."
+          }
+        }
+      },
+      "block_order": [
+        "08970b47-c67c-4001-a320-1ec44d3f5b88",
+        "4a6dbe35-558a-4ee3-9930-04c9ecf2c642",
+        "410f0975-72cd-4356-bc8f-8560201f2960"
+      ],
+      "settings": {
+        "title": "¡El futuro es libre de vellos! 🧡",
+        "video_url": "https:\/\/player.vimeo.com\/video\/759738216?autoplay=1&playsinline=1&color&aautopause=0&loop=1&muted=1&title=1&portrait=1&byline=1",
+        "subtext": "",
+        "btn": "Pruébalo Ahora",
+        "btn_url": ""
+      }
+    },
+    "16629652886a70d667": {
+      "type": "tabs",
+      "disabled": true,
+      "blocks": {
+        "32ebfba3-f78d-4661-918c-a751840d4a80": {
+          "type": "Tav",
+          "settings": {
+            "title": "Pecho",
+            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/0b0e74120bef4b988b5029bbe451b152.mp4"
+          }
+        },
+        "1e7216a2-177f-441d-8ba7-a6135b04e3e9": {
+          "type": "Tav",
+          "settings": {
+            "title": "Piernas",
+            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/bc19d3befeb7424b96279c56b40961bf.mp4"
+          }
+        },
+        "b664bd23-276c-405d-b3e9-bc380b148550": {
+          "type": "Tav",
+          "settings": {
+            "title": "Espalda",
+            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/833fa5c4101241538c251939cb3388e7.mp4"
+          }
+        },
+        "311da8bd-37c3-49d2-8c88-c675d8e510f8": {
+          "type": "Tav",
+          "settings": {
+            "title": "Brazos",
+            "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/5de457428dc442f9994b828e72a1016a.mp4"
+          }
+        }
+      },
+      "block_order": [
+        "32ebfba3-f78d-4661-918c-a751840d4a80",
+        "1e7216a2-177f-441d-8ba7-a6135b04e3e9",
+        "b664bd23-276c-405d-b3e9-bc380b148550",
+        "311da8bd-37c3-49d2-8c88-c675d8e510f8"
+      ],
+      "settings": {
+        "title": "Míralo en acción. No importa la zona, tu borrador se adapta."
+      }
+    },
+    "image-with-text": {
+      "type": "image-with-text",
+      "disabled": true,
+      "blocks": {
+        "image-with-text-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Satisfacción Garantizada",
+            "heading_size": "h1"
+          }
+        },
+        "image-with-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>¨Estoy fascinada con esto. De verdad es la mejor compra que he hecho desde hace mucho tiempo. LO AMÉ!!!<\/p><p>- Mali O.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "image-with-text-0",
+        "image-with-text-1"
+      ],
+      "settings": {
+        "class": "",
+        "image": "shopify:\/\/shop_images\/Malina_Rica.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "1662556840fb802024": {
+      "type": "video",
+      "disabled": true,
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "cover_image": "shopify:\/\/shop_images\/Malina_Rica.png",
+        "video_url": "https:\/\/vimeo.com\/747277437",
+        "description": "Ver Testimonio de Mali",
+        "full_width": false,
+        "color_scheme": "background-1",
+        "padding_top": 12,
+        "padding_bottom": 12
+      }
+    },
+    "1660423601426ea557": {
+      "type": "multicolumn",
+      "disabled": true,
+      "blocks": {
+        "1660423600b4db0244-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ernily-gUPznplBsLI-unsplash.jpg",
+            "title": "",
+            "text": "<p><\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "1660423600b4db0244-1": {
+          "type": "column",
+          "settings": {
+            "title": "¡El futuro es libre de vellos! 🧡",
+            "text": "<p><strong>97% <\/strong>Dijeron enfáticamente que mejoró el aspecto de su piel.<\/p><p><strong>95% <\/strong>Notaron una reducción de vellos enterrados.<\/p><p><strong>91% <\/strong>Sintieron inmediatamente su piel más firme y suave.<\/p>",
+            "link_label": "Pruébalo Ahora",
+            "link": "shopify:\/\/products\/borrador-de-vello-peach"
+          }
+        }
+      },
+      "block_order": [
+        "1660423600b4db0244-0",
+        "1660423600b4db0244-1"
+      ],
+      "settings": {
+        "class": "",
+        "enable_reviews": false,
+        "title": "",
+        "subheading": "",
+        "heading_size": "h0",
+        "image_width": "full",
+        "image_ratio": "square",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1660487252e1e3d2fd": {
+      "type": "multicolumn",
+      "disabled": true,
+      "blocks": {
+        "16604872515b02af13-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lovepeachyskin_381817a9-add3-4867-a1a6-04372e257f51.png",
+            "title": "¨Estoy encantada 🧡¨",
+            "text": "<p>Jamás imaginé que algo así podía existir jaja, neta es una maravilla. Lo recomiendo muchiiiiisimo.<\/p><p><strong>María S.<\/strong><\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "16604872515b02af13-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1_012d3548-bf17-4796-9861-e86a8e8d51b4.png",
+            "title": "¨No vuelvo a comprar un rastrillo en mi vida¨",
+            "text": "<p>Ameeeeee esta hermosura!!! no duele nada y deja la piel súper suavecita!<\/p><p><strong>Fernanda O.<\/strong><\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "16604872515b02af13-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3.png",
+            "title": "¨Es una maravilla¨",
+            "text": "<p>Nunca me había preocupado por quitarme mis vellitos en los brazos y ahora que probé esto estoy fascinada.<\/p><p><strong>Ana F<\/strong>.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16604872515b02af13-0",
+        "16604872515b02af13-1",
+        "16604872515b02af13-2"
+      ],
+      "settings": {
+        "class": "",
+        "enable_reviews": true,
+        "title": "Lo que personas como tú están diciendo",
+        "subheading": "Calificado 4.9\/5 por decenas de clientes",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "1657546992097883cf": {
+      "type": "image-with-text",
+      "disabled": true,
+      "blocks": {
+        "1657546992655b04df-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Peach es único",
+            "heading_size": "h1"
+          }
+        },
+        "1657546992655b04df-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Peach está diseñado con nano-tecnología la cual permite agrupar y remover gentilmente los vellos de la superficie de la piel sin irritar ni resecarla.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "1657546992655b04df-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1657546992655b04df-0",
+        "1657546992655b04df-1",
+        "1657546992655b04df-2"
+      ],
+      "settings": {
+        "class": "",
+        "image": "shopify:\/\/shop_images\/lovepeachyskin_0f3ee5d8-e30f-4bb7-b6ed-c6cf961bede6.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 0,
+        "padding_bottom": 24
+      }
+    },
+    "1663149244aa613b9e": {
+      "type": "image-with-text",
+      "disabled": true,
+      "blocks": {
+        "1663149244c8c3fc39-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "No más rastrillos",
+            "heading_size": "h1"
+          }
+        },
+        "1663149244c8c3fc39-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Estamos tan seguros de que no querrás regresar a los rastrillos, que ofrecemos una garantía de 30 días a todas las órdenes en donde si no quedas convencida de Peach, puedes fácilmente devolverlo y te regresamos el 100% de tu dinero.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "1663149244c8c3fc39-0",
+        "1663149244c8c3fc39-1"
+      ],
+      "settings": {
+        "class": "",
+        "image": "shopify:\/\/shop_images\/WhatsApp_Image_2022-09-17_at_11.05.24.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "accent-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "16604872071c30fc2f": {
+      "type": "rich-text",
+      "disabled": true,
+      "blocks": {
+        "1660487207eec76f7c-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Los resultados mandan",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "1660487207eec76f7c-0"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "e78f00db-244c-43a8-a892-0a321465829b": {
+      "type": "videos-column",
+      "disabled": true,
+      "blocks": {
+        "template--16623791112424__e78f00db-244c-43a8-a892-0a321465829b-1669640420adbd0ab0-0": {
+          "type": "column",
+          "settings": {
+            "video_url": "https:\/\/player.vimeo.com\/video\/759738216?autoplay=1&amp;playsinline=1&amp;color&amp;aautopause=0&amp;loop=1&amp;muted=1&amp;title=1&amp;portrait=1&amp;byline=1"
+          }
+        },
+        "template--16623791112424__e78f00db-244c-43a8-a892-0a321465829b-1669640420adbd0ab0-1": {
+          "type": "column",
+          "settings": {
+            "video_url": "https:\/\/player.vimeo.com\/video\/759738216?autoplay=1&amp;playsinline=1&amp;color&amp;aautopause=0&amp;loop=1&amp;muted=1&amp;title=1&amp;portrait=1&amp;byline=1"
+          }
+        },
+        "template--16623791112424__e78f00db-244c-43a8-a892-0a321465829b-1669640420adbd0ab0-2": {
+          "type": "column",
+          "settings": {
+            "video_url": "https:\/\/player.vimeo.com\/video\/759738216?autoplay=1&amp;playsinline=1&amp;color&amp;aautopause=0&amp;loop=1&amp;muted=1&amp;title=1&amp;portrait=1&amp;byline=1"
+          }
+        }
+      },
+      "block_order": [
+        "template--16623791112424__e78f00db-244c-43a8-a892-0a321465829b-1669640420adbd0ab0-0",
+        "template--16623791112424__e78f00db-244c-43a8-a892-0a321465829b-1669640420adbd0ab0-1",
+        "template--16623791112424__e78f00db-244c-43a8-a892-0a321465829b-1669640420adbd0ab0-2"
+      ],
+      "settings": {
+        "class": "",
+        "enable_reviews": false,
+        "title": "",
+        "subheading": "",
+        "heading_size": "h1",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "judgeme_section_review_widget_ecd1": {
+      "type": "apps",
+      "blocks": {
+        "judgeme_review_widget_c19b8159": {
+          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "judgeme_review_widget_c19b8159"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "16631503339562ac4d": {
+      "type": "faqs",
+      "blocks": {
+        "ccce3b91-d30f-47ea-ad06-aeefc6e909e7": {
+          "type": "Faq",
+          "settings": {
+            "title": "¿Para qué tipo de piel es?",
+            "content": "<p><em>Peach<\/em>es & Cream está diseñado para adaptarse y trabajar en todo tipo de piel :)<\/p>"
+          }
+        },
+        "e3808904-ded0-4196-b764-51af630aebc1": {
+          "type": "Faq",
+          "settings": {
+            "title": "¿Cuánto dura?",
+            "content": "<p>Nuestro jabón dura de 2 a 3 semanas. Sin embargo la longevidad del jabón va a depender del uso, clima y cuidado que se le de. <\/p>"
+          }
+        },
+        "df61bfd5-336a-4f8d-b41e-57283299e3aa": {
+          "type": "Faq",
+          "settings": {
+            "title": "¿Cuál es el tiempo de vida del jabón antes de abrirse?",
+            "content": "<p>2 años.<\/p>"
+          }
+        },
+        "8c927a0a-90f9-4142-936e-560ffaab3437": {
+          "type": "Faq",
+          "settings": {
+            "title": "¿Lo puedo utilizar en el rostro?",
+            "content": "<p>¡Sin duda! A diferencia de los jabones comerciales, los cuales no son aptos para el rostro; <em>Peaches & Cream<\/em> es perfecto para que lo utilices en cuerpo y rostro. <\/p>"
+          }
+        },
+        "e9b1036e-d84c-4413-8d68-e85ba115be8f": {
+          "type": "Faq",
+          "settings": {
+            "title": "¿Por qué este jabón es mejor que los convencionales?",
+            "content": "<p>Si revisas la lista de ingredientes de esos jabones, muy probablemente te darás cuenta que ni siquiera deberían ser considerados jabones en lo absoluto…<br\/><br\/>Pues vas a encontrar que el listado de ingredientes es muy similar al de un detergente para lavar ¡ropa o trastes! <br\/><br\/>Ahora simplemente compáralos con nuestro jabón y que los resultados hablen ;)<\/p>"
+          }
+        },
+        "5ddab657-3928-4863-87a1-54eb14a9f514": {
+          "type": "Faq",
+          "disabled": true,
+          "settings": {
+            "title": "¿En qué moneda está el precio?",
+            "content": "<p>En pesos mexicanos :)<\/p>"
+          }
+        },
+        "eb2c2eb6-208c-4e2d-a1f5-940af76a85cc": {
+          "type": "Faq",
+          "disabled": true,
+          "settings": {
+            "title": "¿Cómo funciona?",
+            "content": "<p>Nuestro borrador de vello <em>Peach<\/em> está diseñado con nanotecnología cristalina de última generación la cual se encarga de remover el vello de raíz sin irritar ni lastimar la piel.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "ccce3b91-d30f-47ea-ad06-aeefc6e909e7",
+        "e3808904-ded0-4196-b764-51af630aebc1",
+        "df61bfd5-336a-4f8d-b41e-57283299e3aa",
+        "8c927a0a-90f9-4142-936e-560ffaab3437",
+        "e9b1036e-d84c-4413-8d68-e85ba115be8f",
+        "5ddab657-3928-4863-87a1-54eb14a9f514",
+        "eb2c2eb6-208c-4e2d-a1f5-940af76a85cc"
+      ],
+      "settings": {
+        "title": "Preguntas Frecuentes"
+      }
+    },
+    "1659275866c9c44e2c": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "custom_liquid": "",
+        "color_scheme": "background-1",
+        "padding_top": 32,
+        "padding_bottom": 32
+      }
+    },
+    "multicolumn": {
+      "type": "multicolumn",
+      "blocks": {
+        "column-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/airplane_3_1.jpg",
+            "title": "Envío Gratis",
+            "text": "<p>Envío gratis en órdenes mayores a $500.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/calendar_d89cdd4b-731a-483c-add0-3eec22d99ee3_1.jpg",
+            "title": "Garantía de 30 días",
+            "text": "<p>Pruébalo 30 noches, ¿no te gustó? Devuélvelo sin explicaciones.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "14d9e5c1-15bf-4a82-9fd7-6282f5369d90": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/cycle_8b00267c-cec8-4608-8e88-be40cf9a75e6.jpg",
+            "title": "Retornos rápidos y justos",
+            "text": "<p>En todas las devoluciones reembolsamos el 100%.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column-0",
+        "column-1",
+        "14d9e5c1-15bf-4a82-9fd7-6282f5369d90"
+      ],
+      "settings": {
+        "class": "mrk-bottom-column-three",
+        "enable_reviews": false,
+        "title": "",
+        "subheading": "",
+        "heading_size": "h2",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "heading": "También te puede interesar…",
+        "heading_size": "h2",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "color_scheme": "background-1",
+        "image_ratio": "square",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 28
+      }
+    }
+  },
+  "order": [
+    "main",
+    "62b58b30-68a7-4b83-b2ef-54ed3f46a316",
+    "122268cc-5044-4490-b22d-a7bda9396d86",
+    "e60b77de-1977-43bb-ac80-dcff4f61747b",
+    "16631496157d60a22e",
+    "166296727286919b57",
+    "1663147365fed27175",
+    "16629652886a70d667",
+    "image-with-text",
+    "1662556840fb802024",
+    "1660423601426ea557",
+    "1660487252e1e3d2fd",
+    "1657546992097883cf",
+    "1663149244aa613b9e",
+    "16604872071c30fc2f",
+    "e78f00db-244c-43a8-a892-0a321465829b",
+    "judgeme_section_review_widget_ecd1",
+    "16631503339562ac4d",
+    "1659275866c9c44e2c",
+    "multicolumn",
+    "product-recommendations"
+  ]
+}

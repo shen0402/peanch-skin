@@ -1,0 +1,477 @@
+{
+  "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "disabled": true,
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_image": false,
+        "color_scheme": "background-1"
+      }
+    },
+    "016ba06f-c7b7-49a7-9cb2-9f98c8023abd": {
+      "type": "image",
+      "disabled": true,
+      "settings": {
+        "image": "shopify:\/\/shop_images\/baner-Web-1.jpg",
+        "image2": "shopify:\/\/shop_images\/Banner-Mobile-1.jpg"
+      }
+    },
+    "2e3b511f-f382-4620-b6e3-5931bd0274fe": {
+      "type": "col-banner",
+      "settings": {
+        "title": "¡Feliz Navidad!",
+        "subtitle": "<strong>Crea el combo ideal para tu piel ✨<\/strong>\n<br>",
+        "text": "",
+        "product1": "peaches-cream-free",
+        "target1": 500,
+        "mrk1": "Peaches & Cream 🧁",
+        "product2": "borrador-de-vello-🍑-free",
+        "target2": 700,
+        "mrk2": "Borrador de Vello 🍑",
+        "target3": 900,
+        "mrk3": "Borrador de Vello 🍑<br>y \nPeaches &amp; Cream 🧁",
+        "image": "shopify:\/\/shop_images\/both.png"
+      }
+    },
+    "86ecbe4d-8d04-4453-9ca1-e5dc5428ef90": {
+      "type": "rich-text",
+      "disabled": true,
+      "blocks": {
+        "15b0a4f0-7bc1-49de-a103-f4807d5fc8ca": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>“Probiotics are the new multivitamins: Lo Bosworth on product expansion”<\/strong><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "15b0a4f0-7bc1-49de-a103-f4807d5fc8ca"
+      ],
+      "settings": {
+        "color_scheme": "accent-2",
+        "full_width": true,
+        "padding_top": 32,
+        "padding_bottom": 32
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "products_per_page": 16,
+        "columns_desktop": 4,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": true,
+        "enable_filtering": false,
+        "filter_type": "horizontal",
+        "enable_sorting": false,
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 60
+      }
+    },
+    "1996b107-dfa6-4f9c-864c-7c6594790965": {
+      "type": "logo-list",
+      "blocks": {
+        "9f678bc7-4ea0-4713-a4c0-c1ee75406254": {
+          "type": "Logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Glamour-min.png"
+          }
+        },
+        "8d8572c6-77dd-4e11-8ee3-8f1ff4ec6968": {
+          "type": "Logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Elle-min.png"
+          }
+        },
+        "dd51e225-864e-4b68-a396-5f8e7c5350b0": {
+          "type": "Logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Cosmopolitan-min.png"
+          }
+        },
+        "645796b5-b690-4f27-9b30-ee381337f142": {
+          "type": "Logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Vanidades-min.png"
+          }
+        },
+        "95afa39f-c0ca-44fd-99e5-36943294a691": {
+          "type": "Logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Marie-min.png"
+          }
+        }
+      },
+      "block_order": [
+        "9f678bc7-4ea0-4713-a4c0-c1ee75406254",
+        "8d8572c6-77dd-4e11-8ee3-8f1ff4ec6968",
+        "dd51e225-864e-4b68-a396-5f8e7c5350b0",
+        "645796b5-b690-4f27-9b30-ee381337f142",
+        "95afa39f-c0ca-44fd-99e5-36943294a691"
+      ],
+      "settings": {
+        "title": "Visto en"
+      }
+    },
+    "d98a36ba-d771-442c-b2c2-eb21885b2748": {
+      "type": "image-cards",
+      "blocks": {
+        "template--16622762819816__d98a36ba-d771-442c-b2c2-eb21885b2748-1670392758a5b40b4b-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/beautiful-woman-wearing-casual-denim-jacket-isolated-wall-hands-together-fingers-crossed-smiling-relaxed-cheerful-success-optimistic-min.jpg",
+            "title": "Libres de tóxicos",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--16622762819816__d98a36ba-d771-442c-b2c2-eb21885b2748-1670392758a5b40b4b-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/beautiful-woman-wearing-casual-denim-jacket-isolated-wall-hands-together-fingers-crossed-smiling-relaxed-cheerful-success-optimistic-min.jpg",
+            "title": "Piel Ultra Limpia y Suave",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--16622762819816__d98a36ba-d771-442c-b2c2-eb21885b2748-1670392758a5b40b4b-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/beautiful-woman-wearing-casual-denim-jacket-isolated-wall-hands-together-fingers-crossed-smiling-relaxed-cheerful-success-optimistic-min.jpg",
+            "title": "Perfectos Para Toda Tu Piel",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16622762819816__d98a36ba-d771-442c-b2c2-eb21885b2748-1670392758a5b40b4b-0",
+        "template--16622762819816__d98a36ba-d771-442c-b2c2-eb21885b2748-1670392758a5b40b4b-1",
+        "template--16622762819816__d98a36ba-d771-442c-b2c2-eb21885b2748-1670392758a5b40b4b-2"
+      ],
+      "settings": {
+        "class": "mrk-image-columns",
+        "enable_reviews": false,
+        "title": "Eco-Responsables",
+        "subheading": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "a869edc8-ab15-4716-a484-3a1f24dc8e7e": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--16622762819816__a869edc8-ab15-4716-a484-3a1f24dc8e7e-16704720102b1a37a2-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Soap_25e0748e-3fc1-4bc1-9ab0-147d09a3f856.png",
+            "title": "",
+            "text": "<p>Garantía Peach de 30 noches<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--16622762819816__a869edc8-ab15-4716-a484-3a1f24dc8e7e-16704720102b1a37a2-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Soap_25e0748e-3fc1-4bc1-9ab0-147d09a3f856.png",
+            "title": "",
+            "text": "<p>Paga a quincenas con KueskiPay<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--16622762819816__a869edc8-ab15-4716-a484-3a1f24dc8e7e-16704720102b1a37a2-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Soap_25e0748e-3fc1-4bc1-9ab0-147d09a3f856.png",
+            "title": "",
+            "text": "<p>Para una piel más contenta, con menos rollo. <\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "5b727769-96df-4ffe-9c04-79616db52cb0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Soap_25e0748e-3fc1-4bc1-9ab0-147d09a3f856.png",
+            "title": "",
+            "text": "<p>Envío rápido y gratis (en órdenes arriba de $500) <\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16622762819816__a869edc8-ab15-4716-a484-3a1f24dc8e7e-16704720102b1a37a2-0",
+        "template--16622762819816__a869edc8-ab15-4716-a484-3a1f24dc8e7e-16704720102b1a37a2-1",
+        "template--16622762819816__a869edc8-ab15-4716-a484-3a1f24dc8e7e-16704720102b1a37a2-2",
+        "5b727769-96df-4ffe-9c04-79616db52cb0"
+      ],
+      "settings": {
+        "class": "",
+        "enable_reviews": false,
+        "title": "Muy sencillo y sin complicaciones",
+        "subheading": "",
+        "heading_size": "h1",
+        "image_width": "third",
+        "image_ratio": "circle",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "accent-2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "cc297287-8c7f-4393-8027-c43fe5a7b177": {
+      "type": "videos-column",
+      "blocks": {
+        "template--16622762819816__cc297287-8c7f-4393-8027-c43fe5a7b177-1670388017607962ed-0": {
+          "type": "column",
+          "settings": {
+            "video_url": "https:\/\/player.vimeo.com\/video\/759738216?autoplay=1&amp;playsinline=1&amp;color&amp;aautopause=0&amp;loop=1&amp;muted=1&amp;title=1&amp;portrait=1&amp;byline=1"
+          }
+        },
+        "template--16622762819816__cc297287-8c7f-4393-8027-c43fe5a7b177-1670388017607962ed-1": {
+          "type": "column",
+          "settings": {
+            "video_url": "https:\/\/player.vimeo.com\/video\/759738216?autoplay=1&amp;playsinline=1&amp;color&amp;aautopause=0&amp;loop=1&amp;muted=1&amp;title=1&amp;portrait=1&amp;byline=1"
+          }
+        },
+        "template--16622762819816__cc297287-8c7f-4393-8027-c43fe5a7b177-1670388017607962ed-2": {
+          "type": "column",
+          "settings": {
+            "video_url": "https:\/\/player.vimeo.com\/video\/759738216?autoplay=1&amp;playsinline=1&amp;color&amp;aautopause=0&amp;loop=1&amp;muted=1&amp;title=1&amp;portrait=1&amp;byline=1"
+          }
+        }
+      },
+      "block_order": [
+        "template--16622762819816__cc297287-8c7f-4393-8027-c43fe5a7b177-1670388017607962ed-0",
+        "template--16622762819816__cc297287-8c7f-4393-8027-c43fe5a7b177-1670388017607962ed-1",
+        "template--16622762819816__cc297287-8c7f-4393-8027-c43fe5a7b177-1670388017607962ed-2"
+      ],
+      "settings": {
+        "class": "mrk-videos-section",
+        "enable_reviews": false,
+        "title": "Miles de mujeres ya usan Peach todos los días ",
+        "subheading": "",
+        "heading_size": "h1",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "89615ac4-6efa-4722-abd1-556c3dd5af7e": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16646420300008__89615ac4-6efa-4722-abd1-556c3dd5af7e-1675610234c2c7c872-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Y no piensan regresar a lo “normal”…",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--16646420300008__89615ac4-6efa-4722-abd1-556c3dd5af7e-1675610234c2c7c872-0"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 56,
+        "padding_bottom": 20
+      }
+    },
+    "167561015398819579": {
+      "type": "apps",
+      "blocks": {
+        "9d99a40c-4938-4e93-b42b-dbd6cf19a1da": {
+          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/all_reviews_page\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {
+            "extra_wrapper_classes": "page-width"
+          }
+        }
+      },
+      "block_order": [
+        "9d99a40c-4938-4e93-b42b-dbd6cf19a1da"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "6cb9a9a7-dc56-4d5c-9127-f5a55b57150e": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16622762819816__6cb9a9a7-dc56-4d5c-9127-f5a55b57150e-16703873849033e8dc-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Juntos por un cambio en tu piel y en el planeta",
+            "heading_size": "h1"
+          }
+        },
+        "template--16622762819816__6cb9a9a7-dc56-4d5c-9127-f5a55b57150e-16703873849033e8dc-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "template--16622762819816__6cb9a9a7-dc56-4d5c-9127-f5a55b57150e-16703873849033e8dc-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16622762819816__6cb9a9a7-dc56-4d5c-9127-f5a55b57150e-16703873849033e8dc-0",
+        "template--16622762819816__6cb9a9a7-dc56-4d5c-9127-f5a55b57150e-16703873849033e8dc-1",
+        "template--16622762819816__6cb9a9a7-dc56-4d5c-9127-f5a55b57150e-16703873849033e8dc-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 20
+      }
+    },
+    "b3e155dc-f2c6-41d2-8f4e-ab43f620465a": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--16622762819816__b3e155dc-f2c6-41d2-8f4e-ab43f620465a-16703872629f77247f-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Miles de mujeres en el mundo se sienten inseguras en su propia piel. <\/p><p>Hartas de los métodos convencionales, los cuales son dolorosos y costosos, buscamos crear un cambio. El cambio que ayude a las mujeres de Latinoamérica a sentirse hermosas, tranquilas y fuertes en su propia piel.<\/p><p>Para eso nace Peach. <\/p><p>Nuestro borrador no lastima tu piel y dura hasta un año de uso continuo. Dándote más control y confianza en tu piel, sin dolor, sin tirar el dinero a la basura y sin preocupaciones.<\/p><p>En Peach, reinventamos los productos que utilizas todos los días para hacer tu vida más cómoda, práctica y placentera. <\/p><p>Únete al cambio y libera tu piel con Peach. <\/p><p><em><strong>Firma. <\/strong><\/em><\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--16622762819816__b3e155dc-f2c6-41d2-8f4e-ab43f620465a-16703872629f77247f-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16622762819816__b3e155dc-f2c6-41d2-8f4e-ab43f620465a-16703872629f77247f-1",
+        "template--16622762819816__b3e155dc-f2c6-41d2-8f4e-ab43f620465a-16703872629f77247f-2"
+      ],
+      "settings": {
+        "class": "bg-about",
+        "image": "shopify:\/\/shop_images\/Modelo-Garantia-30-dias_9c8ff9ef-1afd-4008-b125-b7152d4bee80.jpg",
+        "height": "small",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 20,
+        "padding_bottom": 36
+      }
+    },
+    "f9155a8f-2172-4e19-aeed-5cd69dfa127d": {
+      "type": "faqs",
+      "blocks": {
+        "6c4d0836-e748-442c-9733-3f17975fc0c0": {
+          "type": "Faq",
+          "settings": {
+            "title": "¿Cómo funciona?",
+            "content": "<p>Peach está diseñado con<strong> nano-tecnología cristralina<\/strong><em>,<\/em> la cual permite que al frotarlo con la piel agrupe y remueva el vello en segundos sin dolor ni causar irritación.<br\/><br\/>Este proceso también exfolia gentilmente la piel, dejando la piel súper suave inmediatamente después de utilizarlo 🧡<\/p>"
+          }
+        },
+        "ac065a0a-f4d7-4901-9b34-285c79278a01": {
+          "type": "Faq",
+          "settings": {
+            "title": "Instrucciones",
+            "content": "<p>Te recomendamos utilizarlo sobre la piel seca después de bañarte.<\/p><p>Mediante una presión moderada (no muy fuerte), simplemente frótalo sobre la superficie deseada realizando movimientos circulares.<br\/><br\/>Realiza de 3 a 5 vueltas cortas para que la totalidad del vello desaparezca y tu piel quede súper suave y libre de vello.<\/p><p>Después de utilizarlo te recomendamos aplicar crema y listo.<\/p><p>Tu borrador puedes lavarlo con agua después de utilizarlo.<\/p>"
+          }
+        },
+        "705a8417-7ec4-4091-8b2f-3a3f7a78f8ed": {
+          "type": "Faq",
+          "settings": {
+            "title": "¿En qué zonas lo puedo utilizar?",
+            "content": "<p>El borrador de vello Peach es perfecto para la zona del bikini, brazos, nudillos, pecho, abdomen, espalda y piernas.<\/p>"
+          }
+        },
+        "866b5034-3925-4e77-b35f-a4c0c44de0e2": {
+          "type": "Faq",
+          "settings": {
+            "title": "Envío",
+            "content": "<p>El costo de envío para todo México es de $69.<br\/><br\/>Para órdenes de dúos y triples el envío va por nuestra cuenta y es completamente<strong>GRATIS.<\/strong>Órdenes fuera de México el envío se calcula en el<em>checkout<\/em>.<br\/><br\/>Enviamos desde la Ciudad de México 😊<\/p>"
+          }
+        },
+        "a7fc310e-e46d-4fa3-aef6-c6bf585d89f6": {
+          "type": "Faq",
+          "settings": {
+            "title": "Garantía",
+            "content": "<p>NOTE: If you have sensitive skin, try it on your arms\/legs first before you use it on other delicate parts.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "6c4d0836-e748-442c-9733-3f17975fc0c0",
+        "ac065a0a-f4d7-4901-9b34-285c79278a01",
+        "705a8417-7ec4-4091-8b2f-3a3f7a78f8ed",
+        "866b5034-3925-4e77-b35f-a4c0c44de0e2",
+        "a7fc310e-e46d-4fa3-aef6-c6bf585d89f6"
+      ],
+      "settings": {
+        "title": "Questions? We’ve Got You Covered"
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "016ba06f-c7b7-49a7-9cb2-9f98c8023abd",
+    "2e3b511f-f382-4620-b6e3-5931bd0274fe",
+    "86ecbe4d-8d04-4453-9ca1-e5dc5428ef90",
+    "product-grid",
+    "1996b107-dfa6-4f9c-864c-7c6594790965",
+    "d98a36ba-d771-442c-b2c2-eb21885b2748",
+    "a869edc8-ab15-4716-a484-3a1f24dc8e7e",
+    "cc297287-8c7f-4393-8027-c43fe5a7b177",
+    "89615ac4-6efa-4722-abd1-556c3dd5af7e",
+    "167561015398819579",
+    "6cb9a9a7-dc56-4d5c-9127-f5a55b57150e",
+    "b3e155dc-f2c6-41d2-8f4e-ab43f620465a",
+    "f9155a8f-2172-4e19-aeed-5cd69dfa127d"
+  ]
+}

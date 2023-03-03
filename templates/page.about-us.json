@@ -1,0 +1,286 @@
+{
+  "sections": {
+    "165754299474dc5be3": {
+      "type": "rich-text",
+      "blocks": {
+        "1657542994cdb77b2a-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Reinventando la relación con tu piel.",
+            "heading_size": "h0"
+          }
+        },
+        "1657542994cdb77b2a-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Nuestro Peach de última generación utiliza nanotecnología la cual permite agrupar y remover los vellos de la superficie de la piel sin irritarla ni resecarla.<\/p><p><\/p><p>Además, este innovador proceso exfolia gentilmente las células muertas de la piel logrando una piel ultra suave al instante.<\/p>"
+          }
+        },
+        "1657542994cdb77b2a-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "1657542994cdb77b2a-0",
+        "1657542994cdb77b2a-1",
+        "1657542994cdb77b2a-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 24,
+        "padding_bottom": 0
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
+    },
+    "1657543219ad73a2b0": {
+      "type": "image-with-text",
+      "blocks": {
+        "165754321936e18304-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Creemos que todos merecen sentirse cómodos en su propia piel.",
+            "heading_size": "h2"
+          }
+        },
+        "165754321936e18304-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Nuestra misión es traer para ti soluciones que te hagan verte y sentirte mejor a través de tu piel.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "165754321936e18304-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Comprar Ahora",
+            "button_link": "shopify:\/\/products\/borrador-de-vello-peach"
+          }
+        }
+      },
+      "block_order": [
+        "165754321936e18304-0",
+        "165754321936e18304-1",
+        "165754321936e18304-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/600_x_600.png",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
+    "1657543504e1a83c14": {
+      "type": "image-with-text",
+      "blocks": {
+        "16575435049acdfee1-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Tu comodidad siempre va primero.",
+            "heading_size": "h2"
+          }
+        },
+        "16575435049acdfee1-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>BUscamos re-inventar productos que utilizas todos los días con el principal objetivo de hacer tu vida más cómoda y práctica.<\/p><p><\/p><p>En <em>Peach <\/em>puedes tener la seguridad de que todos nuestros productos han sido diseñados con este fin.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "16575435049acdfee1-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16575435049acdfee1-0",
+        "16575435049acdfee1-1",
+        "16575435049acdfee1-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/600_x_600_1.png",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 0
+      }
+    },
+    "1657544085d65c9d39": {
+      "type": "image-with-text",
+      "blocks": {
+        "16575440858f21bc5b-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Cuidando juntos al planeta.",
+            "heading_size": "h2"
+          }
+        },
+        "16575440858f21bc5b-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Actualmente la cantidad de productos desechables que se consumen es bestial, en <em>Peach <\/em>estamos comprometidos en crear única y exclusivamente productos responsables y amigables con el planeta.<\/p><p><\/p><p><\/p><p>Nuestro borrador de vello está diseñado para reutilizarse y tener una vida útil de hasta 1 año, en comparación a los rastrillos que no duran más que días–semanas a lo mucho.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "16575440858f21bc5b-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16575440858f21bc5b-0",
+        "16575440858f21bc5b-1",
+        "16575440858f21bc5b-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/600_x_600_2.png",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    },
+    "1657544636e3b6c2ad": {
+      "type": "rich-text",
+      "blocks": {
+        "1657544636d51c0d3b-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Es hora de #ponersepeachy 🍑",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "1657544636d51c0d3b-0"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 24
+      }
+    },
+    "1658157521b400206b": {
+      "type": "featured-product",
+      "blocks": {
+        "1658157521e69ad24f-0": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "1658157521e69ad24f-1": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "1658157521e69ad24f-2": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "1658157521e69ad24f-3": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "1658157521e69ad24f-4": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "dropdown"
+          }
+        },
+        "1658157521e69ad24f-5": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "1658157521e69ad24f-6": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "1658157521e69ad24f-7": {
+          "type": "share",
+          "settings": {
+            "share_label": "Compartir"
+          }
+        }
+      },
+      "block_order": [
+        "1658157521e69ad24f-0",
+        "1658157521e69ad24f-1",
+        "1658157521e69ad24f-2",
+        "1658157521e69ad24f-3",
+        "1658157521e69ad24f-4",
+        "1658157521e69ad24f-5",
+        "1658157521e69ad24f-6",
+        "1658157521e69ad24f-7"
+      ],
+      "settings": {
+        "product": "borrador-de-vello-peach",
+        "color_scheme": "background-1",
+        "secondary_background": false,
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "165754299474dc5be3",
+    "main",
+    "1657543219ad73a2b0",
+    "1657543504e1a83c14",
+    "1657544085d65c9d39",
+    "1657544636e3b6c2ad",
+    "1658157521b400206b"
+  ]
+}

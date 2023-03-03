@@ -1,0 +1,22 @@
+<section class="pro_vid_img_sec mrk-tab-usage">
+    <div class="page-width">
+        <div class="pro_vid_img_row">
+            <div class="text_box">
+                <h2>{{ block.settings.heading | escape }}</h2>
+                <h3 class="subheading">{{ block.settings.subheading | escape }}</h3>
+                <div class="image-with-text__text rte">{{ block.settings.text }}</div>
+            </div>
+             <div class="vid_img_box">
+                <div class="image-wrapper">
+                    <img src="{{ block.settings.image | img_url: 'master' }}" alt="{{ block.settings.heading }}">
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    {% if block.settings.sub_text != blank %}
+        <div class="row disclaimer-row" style="background-color: #f15d5d;">
+            <div class="disclaimer-text">{{ block.settings.sub_text }}</div>
+        </div>
+    {% endif %}
+</section>

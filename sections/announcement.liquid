@@ -1,0 +1,55 @@
+{% if section.settings.enable_annoucement %}  
+<div data-section-id="announcement-bar" data-section-type="announcement-bar" data-only-index="false"
+    class="announcement-bar-wrapper"
+    style=" --background-announcement: {{ section.settings.bg }}; --color-text-announcement: {{ section.settings.color }}; --text-animation-speed: 540s;">
+    <a href="{{ section.settings.url }}" class="announcement-bar-link"> <span class="visually-hidden">{{ section.settings.text }}</span> </a>
+    <div class="announcement-bar-content animate">
+        {%- for i in (1..50) -%}
+            <div class="announcement-bar-wrapper-message" aria-hidden="true">{{ section.settings.text }}</div>
+        {%- endfor -%}
+    </div>
+</div>
+{% endif %}
+{% schema %}
+    {
+        "name": "Annoucement",
+        "class": "annoucement announcement-bar-row",
+        "settings": [
+            {
+                "type": "checkbox",
+                "id": "enable_annoucement",
+                "label": "Enable Annoucement",
+                "default": true
+            },
+            {
+                "type": "textarea",
+                "id": "text",
+                "label": "text",
+                "default": "🔥 25% OFF en toda la tienda 🔥"
+            },
+            {
+                "type": "url",
+                "id": "url",
+                "label": "URL"
+            },
+            {
+                "type": "color",
+                "id": "bg",
+                "label": "Background",
+                "default": "#fff7ea"
+            },
+            {
+                "type": "color",
+                "id": "color",
+                "label": "Text Color",
+                "default": "#ff3844"
+            }
+        ],
+        "presets": [
+            {
+                "category": "Header",
+                "name":"Annoucement"
+            }
+        ]
+    }
+{% endschema %}

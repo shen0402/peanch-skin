@@ -1,0 +1,77 @@
+<section class="pro_tab_section bg-white">
+    <div class="page-width">
+        <div class="product_cntent_section">
+            <div class="section-header tab_section">
+                <h3>{{ section.settings.title }}</span>
+                </h3>
+            </div>
+            <div class="tab_row">
+                <ul class="tab_nav">
+                    {% for block in section.blocks %}
+                        <li {% if forloop.first %}class="active"{%endif%}>
+                            <a class="tablink" href="#tab{{forloop.index}}">{{ block.settings.title }}</a>
+                        </li>
+                    {% endfor %}
+                </ul>
+                <div class="tab_content">
+                    {% for block in section.blocks %}
+                    <div id="tab{{forloop.index}}" class="tabcontent" style="{% unless forloop.first %}display:none{%endunless%}">
+                        {% if block.settings.image %}
+                            <img src="{{ block.settings.image | img_url: 'master'}}" alt="">
+                        {% endif %}
+                        {% if block.settings.video_url != blank %}
+                        <video class="content b-lazy b-loaded" autoplay="true" loop="true" muted="" playsinline=""
+                            controlslist="nodownload"
+                            src="{{ block.settings.video_url }}"></video>
+                            {% endif %}
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% schema %}
+{
+  "name": "Tabs",
+  "class": "section",
+  "tag": "section",
+  "settings": [
+        {
+            "type": "text",
+            "id": "title",
+            "label": "Title",
+            "default": "See it in action. No matter the terrain, the eraser hugs your curves."
+        }
+  ],
+  "blocks": [
+        {
+            "type": "Tav",
+            "name": "Tab",
+            "settings": [
+                {
+                    "type": "text",
+                    "id": "title",
+                    "label": "Title",
+                    "default": "Cheast"
+                },
+                {
+                    "type": "image_picker",
+                    "id": "image",
+                    "label": "Image"
+                },
+                {
+                    "type": "text",
+                    "id": "video_url",
+                    "label": "Video URL"
+                }
+            ]
+        }
+    ],
+  "presets": [
+        {
+            "name": "Tabs"
+        }
+    ]
+}
+{% endschema %}

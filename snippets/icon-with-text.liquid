@@ -1,0 +1,24 @@
+<div class="pro-iwt-wrap">
+    <div class="innr">
+        <div class="inner-icon">
+            <img
+                src="{{block.settings.image1 | img_url: 'master'}}">
+        </div>
+        <p>{{block.settings.title1}}</p>
+    </div>
+    <div class="innr">
+        <div class="inner-icon">
+            <img src="{{block.settings.image2 | img_url: 'master'}}">
+        </div>
+        <p>{{block.settings.title2}}</p>
+    </div>
+    {% if block.settings.image3 != blank %}
+    <div class="innr">
+        <div class="inner-icon">
+            <img
+                src="{{block.settings.image3 | img_url: 'master'}}">
+        </div>
+        <p>{{block.settings.title3}}</p>
+    </div>
+  {% endif %}
+</div>

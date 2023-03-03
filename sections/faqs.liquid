@@ -1,0 +1,68 @@
+<section class="questions" id="questions">
+    <div class="page-width">
+        <div class="questions_inner">
+            <div class="questions__title text-center">
+                <h3>{{ section.settings.title }}</h3>
+            </div>
+            <div class="omega">
+                <div class="questions__wrapper">
+                    <div class="question-body">
+                        {% for block in section.blocks %}
+                            <div class="questions__item_row">
+                                <h4 class="ques-heading">{{ block.settings.title }}</h4>
+                                <div class="ques-desc">
+                                    <div class="questions__item">
+                                        <div class="questions-item__text">
+                                            {{ block.settings.content }}
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> 
+                        {% endfor %}
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% schema %}
+{
+  "name": "Faqs",
+  "class": "section",
+  "tag": "section",
+  "settings": [
+        {
+            "type": "text",
+            "id": "title",
+            "label": "Title",
+            "default": "Questions? We’ve Got You Covered"
+        }
+  ],
+  "blocks": [
+        {
+            "type": "Faq",
+            "name": "Faq",
+            "settings": [
+                {
+                    "type": "text",
+                    "id": "title",
+                    "label": "Title",
+                    "default": "Where can I use it?"
+                },
+                {
+                    "type": "richtext",
+                    "id": "content",
+                    "label": "Content",
+                    "default": "<p>NOTE: If you have sensitive skin, try it on your arms/legs first before you use it on other delicate parts.</p>"
+                }
+            ]
+        }
+    ],
+  "presets": [
+        {
+            "name": "Faqs"
+        }
+    ]
+}
+{% endschema %}

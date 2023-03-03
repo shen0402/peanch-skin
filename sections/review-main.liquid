@@ -1,0 +1,106 @@
+<section class="section bg-white pro-richtext section-{{ section.id }}-padding">
+    <div class="isolate page-width">
+        <div class="rich-text content-container color-accent-2 gradient section-rich-text-padding">
+            <div class="reviews-carucel">
+                {%- for block in section.blocks -%}
+                    <div class="rich-text__blocks text-center">
+                        <div class="reviewer-image">
+                        <img src="{{ block.settings.image | img_url:'100x' }}"/>
+                        </div>
+                        <div class="white-starsec">
+                            ★★★★★
+                        </div>
+                        <h2 class="h2">{{block.settings.title}}
+                        </h2>
+                        <div class="rich-text__text rte">
+                            {{ block.settings.subtext }}
+                            <div class="check-box-new">{{ block.settings.subtext2 }}</div>
+                        </div>
+                    </div>
+                {%- endfor -%}
+            </div>
+        </div>
+    </div>
+</section>
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+{% schema %}
+{
+  "name": "Review",
+  "class": "section",
+  "tag": "section",
+  "settings": [
+    {
+      "type": "header",
+      "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 0
+    }
+  ],
+  "blocks": [
+    {
+        "type": "review",
+        "name": "Review",
+        "settings": [
+                {
+                    "type": "image_picker",
+                    "id": "image",
+                    "label": "Image"
+                },
+                {
+                    "type": "text",
+                    "id": "title",
+                    "label": "Title",
+                    "default": "“Easily my best purchase of the year. It was painless and didn't cause any friction even when it was rubbed on the skin. I highly recommend.”"
+                },
+                {
+                    "type": "richtext",
+                    "id": "subtext",
+                    "label": "Name",
+                    "default": "<p>Jane M. -Verified Buyer</p>"
+                },
+                {
+                    "type": "textarea",
+                    "id": "subtext2",
+                    "label": "Text",
+                    "default": "Comprador Verificado"
+                }
+            ]
+        }
+    ],
+  "presets": [
+        {
+            "name": "Review"
+        }
+    ]
+}
+{% endschema %}

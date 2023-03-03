@@ -1,0 +1,685 @@
+.mo-game-container {
+    background: #f15d5d;
+    height: 184px;
+    width: 100%;
+    display: flex;
+    justify-content: center
+}
+
+.mo-game-container .mo-off-tag {
+    display: flex;
+    padding-left: 20px
+}
+
+.mo-game-container .mo-off-tag img {
+    width: 116px
+}
+
+.mo-game-container .mo-desc {
+    max-width: 437px;
+    padding-left: 24px;
+    align-self: center
+}
+
+.mo-game-container .mo-desc .mo-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 32px;
+    color: #fff
+}
+
+.mo-game-container .mo-desc .mo-details {
+    font-style: normal;
+    font-weight: 100;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+    padding-top: 7px
+}
+
+.mo-game-container .mo-game {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    letter-spacing: .02em;
+    color: #fff;
+    align-self: center;
+    padding-left: 20px;
+    min-width: 400px
+}
+
+.mo-game-container .mo-game .mo-progress {
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
+
+.mo-game-container .mo-game .mo-progress-bar {
+    border-radius: 5px;
+    display: flex;
+    background-color: #f15d5d;
+    height: 5px;
+    align-items: center;
+    position: relative;
+    top: -70px
+}
+
+.mo-game-container .mo-game .mo-progress-goals {
+    border-radius: 5px;
+    display: block;
+    width: 0;
+    background-color: #fff;
+    height: 10px
+}
+
+.mo-game-container .mo-game .mo-icons {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    z-index: 1;
+    position: relative;
+    top: 10px
+}
+
+.mo-game-container .mo-game .mo-icons .mo-icon {
+    background: #F5F5F5;
+    border: 4px solid transparent;
+    height: 56px;
+    width: 56px;
+    border-radius: 56px;
+    margin: 0 auto
+}
+
+.mo-game-container .mo-game .mo-icons .mo-icon img {
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 56px
+}
+
+.mo-game-container .mo-game .mo-icons .mo-icon-container {
+    cursor: pointer
+}
+
+.mo-game-container .mo-game .mo-icons .mo-icon-container:last-child img {
+    height: unset;
+    transform: rotate(0);
+    top: 0
+}
+
+.mo-game-container .mo-game .mo-icons .mo-icon-container:nth-child(3) img {
+    left: 0
+}
+
+.mo-game-container .mo-game .mo-icons .mo-icon-container:first-child img {
+    transform: rotate(0)
+}
+
+.mo-game-container .mo-game .mo-icons .mo-icon.active {
+    background: white;
+    border-color: #fff
+}
+
+.mo-game-container .mo-game .mo-icons .mo-icon-price {
+    font-weight: 700;
+    padding-top: 8px
+}
+
+.mo-game-container .mo-game .mo-icons {
+    font-style: normal;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: .02em;
+    color: #fff
+}
+
+.mo-game-container .mo-game .mo-icons .mo-icon-title {
+    padding-top: 2px
+}
+
+.mo-game-container .mo-commands {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: .02em;
+    color: #fff;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-self: center
+}
+
+.mo-game-container .mo-commands .mo-top {
+    display: flex;
+    justify-content: space-between
+}
+
+.mo-game-container .mo-commands .mo-cart-icon {
+    display: flex;
+    padding-left: 20px;
+    cursor: pointer;
+    display: none !important
+}
+
+.mo-game-container .mo-commands .mo-cart-icon .mo-arrow {
+    display: flex;
+    align-self: center;
+    padding-left: 8px
+}
+
+.mo-game-container .mo-commands .mo-cart-icon .mo-arrow img {
+    width: 16px;
+    height: 16px
+}
+
+.mo-game-container .mo-commands .mo-bottom {
+    padding-top: 20px
+}
+
+.mo-game-container .mo-commands .mo-checkout-btn {
+    font-style: normal;
+    font-weight: 900;
+    font-size: 12px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: .02em;
+    text-transform: uppercase;
+    color: #000;
+    background: #f15d5d;
+    border: 1px solid #000FFF;
+    border-radius: 6px;
+    white-space: nowrap;
+    padding: 8px 10.5px;
+    cursor: pointer;
+    display: none !important
+}
+
+.mo-game-container .mo-commands .mo-checkout-btn:hover {
+    color: #f15d5d;
+    background: #000;
+    border-color: #f15d5d
+}
+
+.mo-game-container .mo-commands .mo-subtotal .mo-price {
+    padding-top: 8px;
+    font-weight: 700;
+    font-size: 16px
+}
+
+.mo-game-cart {
+    display: flex;
+    background: #000FFF;
+    border-width: 0px 1px 1px 1px;
+    border-style: solid;
+    border-color: #F5F5F5;
+    border-radius: 0 0 8px 8px;
+    padding: 16px;
+    width: 70%;
+    flex-wrap: wrap;
+    margin-left: 5%;
+    row-gap: 2rem;
+    justify-content: left;
+    column-gap: 2rem;
+    transition: max-height .25s ease-in;
+    filter: drop-shadow(0px 10px 10px rgba(0, 0, 0, .1));
+    z-index: 4;
+    position: absolute;
+    max-height: 1000px
+}
+
+.mo-game-cart.mo-hidden {
+    max-height: 0;
+    transition: max-height .15s ease-out;
+    display: none
+}
+
+.mo-game-cart .bundle-product-container .collection-product-price-container {
+    display: none
+}
+
+.mo-game-cart .bundle-product-container {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    color: #151414;
+    height: auto;
+    width: 160px;
+    background: #FFEAF2;
+    padding: 8px;
+    border-radius: 6px;
+    background-image: url(https://cdn.shopify.com/s/files/1/0031/8101/9185/files/bf-cart-product-sun-bg.svg?v=1666661161);
+    background-size: contain;
+    background-repeat: no-repeat
+}
+
+.mo-game-cart .bundle-product-container .bundle-add-btn {
+    background: #CC2765;
+    border-radius: 6px;
+    height: 32px;
+    border-color: #cc2765;
+    min-height: unset;
+    padding: 0;
+    align-items: center;
+    justify-content: center;
+    display: flex
+}
+
+.mo-game-cart .bundle-product-container .post-atc-plus,
+.mo-game-cart .bundle-product-container .post-atc-inner,
+.mo-game-cart .bundle-product-container .post-atc-minus {
+    font-size: 16px !important
+}
+
+.mo-game-cart .bundle-product-container .quick-view,
+.mo-game-container .mo-commands .mo-cart-icon .mo-arrow img.mo-hidden {
+    display: none
+}
+
+#mo-game-wrapper.mo-hide {
+    visibility: hidden
+}
+
+#mo-game-wrapper-clone-js {
+    display: none;
+    position: fixed;
+    top: 0;
+    width: 65%;
+    z-index: 999;
+    left: 5%;
+    padding-right: 20px
+}
+
+#mo-game-wrapper-clone-js.mo-show {
+    display: block
+}
+
+#mo-game-wrapper-clone-js .mo-game-container {
+    border-radius: 0 0 8px 8px;
+    filter: drop-shadow(0px 10px 10px rgba(0, 0, 0, .1))
+}
+
+#mo-game-wrapper-clone-js .mo-desc {
+    display: none
+}
+
+#mo-game-wrapper-mobile {
+    display: none;
+    width: 100%
+}
+
+#mo-game-wrapper-mobile .mo-game-container .mo-commands .mo-cart-icon .mo-arrow.mo-show img {
+    transform: rotate(180deg)
+}
+
+#mo-game-wrapper-mobile .mo-game-cart {
+    margin: 0;
+    width: 100%;
+    filter: unset;
+    border: 0;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    position: inherit;
+    height: -webkit-fill-available;
+    overflow-y: scroll;
+    align-content: flex-start
+}
+
+#mo-game-wrapper-mobile .mo-game-container .mo-game {
+    min-width: unset
+}
+
+#mo-game-wrapper-mobile .bundle-product-title {
+    min-height: unset
+}
+
+@media (max-width:1140px) {
+    #mo-game-wrapper-clone-js .mo-game-container .mo-off-tag {
+        display: none
+    }
+
+    #mo-game-wrapper-clone-js {
+        padding-right: 20px
+    }
+}
+
+@media (max-width:879px) {
+    .mo-special-product .mo-header .mo-copy {
+        font-size: 12px
+    }
+}
+
+@media (max-width:691px) {
+    .mo-collection-container li {
+        width: calc(50% - 2rem)
+    }
+}
+
+@media (max-width:989px) {
+
+    .mo-top {
+    display: none !important;
+}
+
+#mo-game-wrapper .mo-game, #mo-game-wrapper .mo-commands, #mo-game-wrapper-clone-js {
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+    bottom: 0;
+    background: #f15d5d;
+    padding: 10px;
+}
+
+.mo-commands {
+    display: none !important;
+}
+
+.mo-icon-title {
+    font-size: 9px;
+}
+
+.mo-icon-container {
+    flex: 1;
+}
+
+    #mo-game-wrapper .mo-title {
+        font-size: 20px;
+        line-height: 24px
+    }
+
+    #mo-game-wrapper .mo-details {
+        font-size: 11px;
+        line-height: 133%
+    }
+
+    #mo-game-wrapper .mo-details .mo-second-line {
+        font-size: 10px
+    }
+
+    .mo-game-container .mo-off-tag {
+        padding-left: 0 !important
+    }
+
+    #mo-game-wrapper .mo-game-container .mo-off-tag img {
+        width: 80px
+    }
+
+    #mo-game-wrapper .mo-game-container {
+        height: unset;
+        padding: 8px
+    }
+
+    #mo-game-wrapper-mobile {
+        display: block;
+        position: fixed;
+        bottom: 0;
+        z-index: 4;
+        height: fit-content
+    }
+
+    #mo-game-wrapper-mobile .mo-title,
+    #mo-game-wrapper-mobile .mo-details,
+    #mo-game-wrapper-mobile .mo-off-tag,
+    #mo-game-wrapper-mobile .mo-subtotal,
+    #mo-game-wrapper-mobile .mo-close {
+        display: none
+    }
+
+    #mo-game-wrapper-mobile .mo-game-container {
+        display: block;
+        padding: 8px;
+        height: auto
+    }
+
+    #mo-game-wrapper-mobile .mo-game-container .mo-game {
+        padding: 0 0 5px
+    }
+
+    #mo-game-wrapper-mobile .mo-game-container .mo-commands {
+        flex-direction: row-reverse
+    }
+
+    #mo-game-wrapper-mobile .mo-game-container .mo-commands .mo-bottom {
+        padding: 0;
+        display: flex;
+        width: 100%
+    }
+
+    #mo-game-wrapper-mobile .mo-game-container .mo-commands .mo-checkout-btn {
+        width: 100%
+    }
+
+    #mo-game-wrapper-mobile .mo-game-container .mo-commands .mo-cart-icon img {
+        margin: auto
+    }
+
+    #mo-game-wrapper-mobile .mo-game-top {
+        display: flex;
+        justify-content: space-between
+    }
+
+    #mo-game-wrapper-mobile .mo-info {
+        width: 100%;
+        margin: auto
+    }
+
+    #mo-game-wrapper-mobile .mo-game-container .mo-game .mo-progress {
+        padding: 0 20%
+    }
+}
+
+@media (max-width:640px) {
+    #mo-game-wrapper-mobile .mo-game-container .mo-game .mo-progress {
+        padding: 10%
+    }
+}
+
+@media (max-width:500px) {
+    #mo-game-wrapper-mobile .mo-game-container .mo-game .mo-progress {
+        padding: 0;
+        padding-bottom: 4px !important;
+        height: auto;
+        margin-top: -5px
+    }
+
+    .mo-game-container .mo-game .mo-icons .mo-icon-price {
+        padding-top: 2px
+    }
+
+    .mo-game-container .mo-commands .mo-checkout-btn {
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center
+    }
+
+    .mo-game-container .mo-game .mo-icons {
+        font-size: 11px !important
+    }
+}
+
+.bundle-product-container .yotpo {
+    display: none
+}
+
+.mo-blink {
+    background-color: #F5F5F5;
+    animation: blinking .5s ease-in
+}
+
+@keyframes blinking {
+    0% {
+        background-color: #887d9a
+    }
+
+    25% {
+        background-color: #746889
+    }
+
+    50% {
+        background-color: #605279
+    }
+
+    75% {
+        background-color: #4c3d68
+    }
+
+    to {
+        background-color: #F5F5F5
+    }
+}
+
+#mo-gifts-info {
+    width: 100%;
+    height: 100%;
+    background-color: #00000080;
+    z-index: 9991;
+    visibility: hidden;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: flex
+}
+
+#mo-gifts-info .mo-container {
+    max-width: 872px;
+    min-height: 376px;
+    background: #000FFF;
+    border-radius: 10px;
+    margin: auto;
+    box-shadow: 2px 3px 5px #999;
+    height: fit-content
+}
+
+#mo-gifts-info .mo-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #F5F5F5
+}
+
+#mo-gifts-info .mo-body .mo-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #f15d5d;
+    text-align: left
+}
+
+#mo-gifts-info .mo-body .mo-description {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 24px;
+    color: #F5F5F5;
+    padding: 5px 0 0
+}
+
+#mo-gifts-info .mo-body {
+    display: flex;
+    padding: 20px 50px 50px;
+    flex-wrap: wrap;
+    gap: 20px
+}
+
+#mo-gifts-info .mo-body .mo-text {
+    padding-left: 5px
+}
+
+#mo-gifts-info .mo-header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #FFEAF2
+}
+
+#mo-gifts-info .mo-header .mo-title {
+    width: 100%;
+    margin: auto
+}
+
+#mo-gifts-info .mo-header .mo-close {
+    padding: 14px 20px;
+    cursor: pointer
+}
+
+#mo-gifts-info .mo-body .mo-image {
+    position: relative
+}
+
+#mo-gifts-info .mo-body .mo-image .mo-bg {
+    background: #F5F5F5;
+    border: 4px solid #f15d5d;
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+    display: block;
+    position: absolute;
+    left: 8px;
+    top: 8px
+}
+
+#mo-gifts-info .mo-body .mo-image img {
+    z-index: 1;
+    position: sticky
+}
+
+#mo-gifts-info .mo-gift-block {
+    flex: calc(50% - 20px);
+    display: flex
+}
+
+@media (max-width: 900px) {
+    #mo-gifts-info .mo-container {
+        width: 90%;
+        max-height: 90% !important;
+        height: 90%
+    }
+
+    #mo-gifts-info .mo-body {
+        padding: 20px 30px;
+        display: block;
+        overflow-y: scroll;
+        height: inherit;
+        min-height: unset
+    }
+
+    #mo-gifts-info .mo-header .mo-title {
+        font-size: 14px !important;
+        line-height: 20px !important;
+        text-align: left !important;
+        padding-left: 30px !important
+    }
+
+    #mo-gifts-info .mo-body .mo-description {
+        font-weight: 300 !important;
+        font-size: 12px !important;
+        line-height: 16px !important;
+        padding: 5px 0 20px !important
+    }
+
+    #mo-gifts-info .mo-body .mo-image img {
+        width: 64px;
+        height: 64px
+    }
+
+    #mo-gifts-info .mo-body .mo-image .mo-bg {
+        height: 53px !important;
+        width: 53px !important;
+        left: 5px !important;
+        top: 5px !important
+    }
+}
+.mo-game-container .mo-game .mo-icons .mo-icon {
+    overflow: hidden;
+}

@@ -1,0 +1,211 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 0
+      }
+    },
+    "16592766806b4deb9f": {
+      "type": "collapsible-content",
+      "blocks": {
+        "1659276680e94a8ddb-0": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "¿Cómo funciona?",
+            "icon": "lightning_bolt",
+            "row_content": "<p>Nuestro Peach de última generación utiliza nanotecnología la cual permite agrupar y remover los vellos de la superficie de la piel sin irritarla ni resecarla.<br\/><br\/>Con tan solo frotarlo sobre la superficie de la piel limpia y seca, es suficiente para revelar una piel de durazno libre de vellos en segundos.<\/p>",
+            "page": ""
+          }
+        },
+        "c2252d9f-b583-493a-b52d-d4b70ec2aec3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "¿Cómo lo uso?",
+            "icon": "star",
+            "row_content": "<p>Simplemente frótalo sobre tu piel limpia y seca mediante movimientos cortos y circulares.<\/p><p><\/p><p>Verás como al instante remueve los vellos de la superficie de la piel dejándola súper suave.<\/p><p><\/p><p>Después de utilizarlo, enjuaga tu Peach con agua y déjalo secar.<br\/><br\/>Guárdalo y ¡listo! 🍑<\/p>",
+            "page": ""
+          }
+        },
+        "1659276680e94a8ddb-2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "¿En qué partes lo puedo utilizar?",
+            "icon": "heart",
+            "row_content": "<p><em>Peach<\/em> es perfecto para que lo utilices en brazos, piernas, abdomen, pecho y espalda.<\/p><p><strong>Nota<\/strong>: Te sugerimos no excederte con la presión cuando lo frotes sobre tu piel, pues ésta debe ser moderada.<\/p><p><strong>*<\/strong>No te sugerimos utilizar <em>Peach<\/em> en las axilas ya que esta zona es muy desigual y arrugada, lo cual dificulta su aplicación.<\/p><p>*Tampoco te recomendamos que lo utilices en tu rostro pues la piel de tu rostro es muy delicada y tiende a irritarse fácilmente.<\/p>",
+            "page": ""
+          }
+        },
+        "1659276680e94a8ddb-3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "¿Cuándo es el mejor momento para utilizar mi Peach?",
+            "icon": "clipboard",
+            "row_content": "<p>Inmediatamente después de bañanarte.<\/p><p><\/p><p>Te recomendamos depués de utilizarlo, hidratar tu piel con un hidratante corporal.<\/p>",
+            "page": ""
+          }
+        },
+        "29891671-0db6-4b51-9e02-29b69ddd8bd0": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "¿Cada cuánto puedo utilizarlo?",
+            "icon": "stopwatch",
+            "row_content": "<p>De 1 a 2 veces por semana.<\/p>",
+            "page": ""
+          }
+        },
+        "38bfb64e-95c1-46cc-913e-f0f41ed897fd": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "¿Cómo limpio mi Peach?",
+            "icon": "washing",
+            "row_content": "<p>Simplemente enjuágalo con agua hasta que no quede ningún vello o  residuo. Después, guárdalo en un lugar seco.<\/p>",
+            "page": ""
+          }
+        },
+        "fb705fe5-d750-4520-aaa5-815b776fd3dc": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "¿La fricción es mala para mi piel?",
+            "icon": "question_mark",
+            "row_content": "<p>No, de hecho la tecnología de <em>Peach<\/em> remueve la piel muerta y deja tu piel súper suave al instante.<\/p>",
+            "page": ""
+          }
+        },
+        "1659276680e94a8ddb-1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "¿Qué costo tiene el envío?",
+            "icon": "truck",
+            "row_content": "<p>El costo de envío para órdenes dentro de México es de $49.<br\/><br\/>Órdenes de dúos y triples dentro de México reciben <strong>envío gratis<\/strong>. <br\/><br\/>Para órdenes fuera de México, el costo de envío se calcula en el <em>checkout<\/em>.<\/p>",
+            "page": ""
+          }
+        },
+        "46158200-6e4a-435e-aa08-1b2b0720cdff": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "¿Dónde ingreso mi código de descuento?",
+            "icon": "silhouette",
+            "row_content": "<p>Si tienes un código de descuento simplemente ingresalo en el <em>checkout<\/em>.<\/p>",
+            "page": ""
+          }
+        },
+        "1deedf7f-4593-4290-b4c3-027f588f13d6": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "¿Tiene alguna garantía?",
+            "icon": "return",
+            "row_content": "<p>Claro. Estamos tan seguros de la tecnología que respalda a Peach por lo que si dentro de los primeros 30 días de haber recibido tu Peach no estás satisfecha, puedes devolverlo y te regresamos el 100% de tu dinero.<\/p>",
+            "page": ""
+          }
+        },
+        "0019907f-e1a8-4279-a358-9f2cd60a60f5": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "¿Cuánto tarda en llegar mi orden?",
+            "icon": "box",
+            "row_content": "<p>Ten por seguro que queremos que recibas tu orden lo antes posible, pero debido a la alta carga de las paqueterías, las órdenes pueden demorar en llegar de 3 a 5 días hábiles.<\/p>",
+            "page": ""
+          }
+        },
+        "71c82d31-448b-4d21-90b7-af270a088f69": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "¿Qué métodos de pago aceptan?",
+            "icon": "price_tag",
+            "row_content": "<p>Puedes pagar con <em>PayPal<\/em>, tarjeta de débito o crédito, en OXXO y transferencia ☺️.<\/p>",
+            "page": ""
+          }
+        },
+        "df4fdbf4-e95e-4ae7-936a-8ecb76a6a1d7": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "¿En qué moneda está el precio?",
+            "icon": "check_mark",
+            "row_content": "<p>En pesos mexicanos :)<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "1659276680e94a8ddb-0",
+        "c2252d9f-b583-493a-b52d-d4b70ec2aec3",
+        "1659276680e94a8ddb-2",
+        "1659276680e94a8ddb-3",
+        "29891671-0db6-4b51-9e02-29b69ddd8bd0",
+        "38bfb64e-95c1-46cc-913e-f0f41ed897fd",
+        "fb705fe5-d750-4520-aaa5-815b776fd3dc",
+        "1659276680e94a8ddb-1",
+        "46158200-6e4a-435e-aa08-1b2b0720cdff",
+        "1deedf7f-4593-4290-b4c3-027f588f13d6",
+        "0019907f-e1a8-4279-a358-9f2cd60a60f5",
+        "71c82d31-448b-4d21-90b7-af270a088f69",
+        "df4fdbf4-e95e-4ae7-936a-8ecb76a6a1d7"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "",
+        "heading_size": "h2",
+        "heading_alignment": "left",
+        "layout": "none",
+        "color_scheme": "background-1",
+        "container_color_scheme": "background-2",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "165927890291377fb8": {
+      "type": "image-with-text",
+      "blocks": {
+        "16592789029ca0ec32-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "¿Cómo te podemos ayudar?",
+            "heading_size": "h1"
+          }
+        },
+        "16592789029ca0ec32-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Si aún tienes dudas, por favor solamente contáctanos y te atenderémos a la brevedad.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "16592789029ca0ec32-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "CONTACTAR",
+            "button_link": "shopify:\/\/pages\/contacto"
+          }
+        }
+      },
+      "block_order": [
+        "16592789029ca0ec32-0",
+        "16592789029ca0ec32-1",
+        "16592789029ca0ec32-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Untitled_design_a277160a-9741-43e2-ad4a-4ba341292fe9.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16592766806b4deb9f",
+    "165927890291377fb8"
+  ]
+}

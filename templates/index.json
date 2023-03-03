@@ -1,0 +1,502 @@
+{
+  "sections": {
+    "1662976794bcc3258f": {
+      "type": "image-with-text",
+      "blocks": {
+        "1662976794fbd0af92-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "¡El mágico borrador de vello está aquí!",
+            "heading_size": "h2"
+          }
+        },
+        "1662976794fbd0af92-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Llegó la forma más fácil, sencilla y práctica de deshacerte de todos tus ¨velludos¨ problemas.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "1662976794fbd0af92-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Comprar Ahora",
+            "button_link": "shopify:\/\/products\/borrador-de-vello-peach"
+          }
+        }
+      },
+      "block_order": [
+        "1662976794fbd0af92-0",
+        "1662976794fbd0af92-1",
+        "1662976794fbd0af92-2"
+      ],
+      "settings": {
+        "class": "",
+        "image": "shopify:\/\/shop_images\/Untitled_design_c8fdc337-d0da-41c8-bd8b-2feecc051393.png",
+        "height": "small",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "accent-1",
+        "mobile_content_alignment": "center",
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "1653170999a9a477f0": {
+      "type": "multicolumn",
+      "disabled": true,
+      "blocks": {
+        "16531709994df3782a-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Untitled_design.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": "shopify:\/\/products\/borrador-de-vello-peach"
+          }
+        },
+        "16531709994df3782a-0": {
+          "type": "column",
+          "settings": {
+            "title": "Es hora de #PonersePeachy 🍑",
+            "text": "<p>Llegó la forma más fácil, sencilla y práctica de deshacerte de todos tus ¨velludos¨ problemas.<\/p>",
+            "link_label": "Comprar Ahora",
+            "link": "shopify:\/\/products\/borrador-de-vello-peach"
+          }
+        }
+      },
+      "block_order": [
+        "16531709994df3782a-1",
+        "16531709994df3782a-0"
+      ],
+      "settings": {
+        "class": "",
+        "enable_reviews": false,
+        "title": "",
+        "subheading": "",
+        "heading_size": "h0",
+        "image_width": "full",
+        "image_ratio": "square",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "shopify:\/\/products\/borrador-de-vello-peach",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "rich_text": {
+      "type": "rich-text",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Adiós velludos problemas.",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "heading"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "multicolumn": {
+      "type": "multicolumn",
+      "blocks": {
+        "column1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/clean_new.jpg",
+            "title": "",
+            "text": "<p>Gentil con tu piel<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/cycle.jpg",
+            "title": "",
+            "text": "<p>Reutilizable<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column3": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/school-bag_new.jpg",
+            "title": "",
+            "text": "<p>Práctico<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "85014392-4349-405a-ac7f-a01347ad90c1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/click_new.jpg",
+            "title": "",
+            "text": "<p>Fácil de usar<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column1",
+        "column2",
+        "column3",
+        "85014392-4349-405a-ac7f-a01347ad90c1"
+      ],
+      "settings": {
+        "class": "",
+        "enable_reviews": false,
+        "title": "",
+        "subheading": "",
+        "heading_size": "h0",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "1653171912f77d1ec9": {
+      "type": "rich-text",
+      "blocks": {
+        "165317191276bc1632-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Los resultados mandan...",
+            "heading_size": "h1"
+          }
+        },
+        "165317191276bc1632-1": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "165317191276bc1632-0",
+        "165317191276bc1632-1"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 12
+      }
+    },
+    "16531654235197e986": {
+      "type": "multicolumn",
+      "blocks": {
+        "1653165423ada39b33-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/lovepeachyskin_381817a9-add3-4867-a1a6-04372e257f51.png",
+            "title": "¨Estoy encantada 🧡¨",
+            "text": "<p>Jamás imaginé que algo así podía existir jaja, neta es una maravilla. Lo recomiendo muchiiiiisimo.<\/p><p><\/p><p><strong>María S.<\/strong><\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "1653165423ada39b33-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/1_012d3548-bf17-4796-9861-e86a8e8d51b4.png",
+            "title": "¨No vuelvo a comprar un rastrillo en mi vida¨",
+            "text": "<p>Ameeeeee esta hermosura!!! no duele nada y deja la piel súper suavecita!<\/p><p><strong>Fernanda O.<\/strong><\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "1653165423ada39b33-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/3.png",
+            "title": "¨Es una maravilla¨",
+            "text": "<p>Nunca me había preocupado por quitarme mis vellitos en los brazos y ahora que probé esto estoy fascinada.<\/p><p><\/p><p><strong>Ana F<\/strong>.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1653165423ada39b33-2",
+        "1653165423ada39b33-0",
+        "1653165423ada39b33-1"
+      ],
+      "settings": {
+        "class": "",
+        "enable_reviews": false,
+        "title": "",
+        "subheading": "",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Comprar Ahora",
+        "button_link": "shopify:\/\/products\/borrador-de-vello-peach",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "16531709136f03d296": {
+      "type": "hairfree",
+      "blocks": {
+        "08970b47-c67c-4001-a320-1ec44d3f5b88": {
+          "type": "Percent",
+          "settings": {
+            "percent": 97,
+            "text": "Dijeron enfáticamente que mejoró el aspecto de su piel."
+          }
+        },
+        "4a6dbe35-558a-4ee3-9930-04c9ecf2c642": {
+          "type": "Percent",
+          "settings": {
+            "percent": 95,
+            "text": "Notaron una reducción de vellos enterrados."
+          }
+        },
+        "410f0975-72cd-4356-bc8f-8560201f2960": {
+          "type": "Percent",
+          "settings": {
+            "percent": 91,
+            "text": "Sintieron inmediatamente su piel más firme y suave."
+          }
+        }
+      },
+      "block_order": [
+        "08970b47-c67c-4001-a320-1ec44d3f5b88",
+        "4a6dbe35-558a-4ee3-9930-04c9ecf2c642",
+        "410f0975-72cd-4356-bc8f-8560201f2960"
+      ],
+      "settings": {
+        "title": "¡El futuro es libre de vellos! 🧡",
+        "video_url": "https:\/\/player.vimeo.com\/video\/759738216?autoplay=1&playsinline=1&color&aautopause=0&loop=1&muted=1&title=1&portrait=1&byline=1",
+        "subtext": "",
+        "btn": "Pruébalo Ahora",
+        "btn_url": ""
+      }
+    },
+    "16531723412054d932": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Untitled_design_2.png",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "165317252119c8885d": {
+      "type": "multicolumn",
+      "blocks": {
+        "165317252180a72f44-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/airplane_31.jpg",
+            "title": "Envío Gratis",
+            "text": "<p>El envío va por nuestra cuenta en órdenes de dúos y triples.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "165317252180a72f44-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/calander.jpg",
+            "title": "Garantía de 30 días",
+            "text": "<p>Pruébalo 30 noches, ¿no te gustó? Devuélvelo.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "165317252180a72f44-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/cycle-box.jpg",
+            "title": "Retornos Rápidos",
+            "text": "<p>Nosotros nos encargamos de recolectar tu devolución.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "165317252180a72f44-0",
+        "165317252180a72f44-1",
+        "165317252180a72f44-2"
+      ],
+      "settings": {
+        "class": "",
+        "enable_reviews": false,
+        "title": "Pruébalo sin riesgo",
+        "subheading": "",
+        "heading_size": "h1",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1660424444107b3a2c": {
+      "type": "apps",
+      "blocks": {
+        "cb29800d-4bf8-4678-9299-a47045aec749": {
+          "type": "shopify:\/\/apps\/instafeed-instagram-feed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "heading_size": 20,
+            "feed_width": 100,
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "cb29800d-4bf8-4678-9299-a47045aec749"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "b8307e95-db71-4df7-9258-02c6267b3e6b": {
+      "type": "featured-product",
+      "blocks": {
+        "template--16622763114728__b8307e95-db71-4df7-9258-02c6267b3e6b-167690884271cb6a45-0": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "template--16622763114728__b8307e95-db71-4df7-9258-02c6267b3e6b-167690884271cb6a45-1": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "template--16622763114728__b8307e95-db71-4df7-9258-02c6267b3e6b-167690884271cb6a45-2": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "template--16622763114728__b8307e95-db71-4df7-9258-02c6267b3e6b-167690884271cb6a45-3": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "template--16622763114728__b8307e95-db71-4df7-9258-02c6267b3e6b-167690884271cb6a45-4": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "dropdown"
+          }
+        },
+        "template--16622763114728__b8307e95-db71-4df7-9258-02c6267b3e6b-167690884271cb6a45-5": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "template--16622763114728__b8307e95-db71-4df7-9258-02c6267b3e6b-167690884271cb6a45-6": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "template--16622763114728__b8307e95-db71-4df7-9258-02c6267b3e6b-167690884271cb6a45-7": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "template--16622763114728__b8307e95-db71-4df7-9258-02c6267b3e6b-167690884271cb6a45-0",
+        "template--16622763114728__b8307e95-db71-4df7-9258-02c6267b3e6b-167690884271cb6a45-1",
+        "template--16622763114728__b8307e95-db71-4df7-9258-02c6267b3e6b-167690884271cb6a45-2",
+        "template--16622763114728__b8307e95-db71-4df7-9258-02c6267b3e6b-167690884271cb6a45-3",
+        "template--16622763114728__b8307e95-db71-4df7-9258-02c6267b3e6b-167690884271cb6a45-4",
+        "template--16622763114728__b8307e95-db71-4df7-9258-02c6267b3e6b-167690884271cb6a45-5",
+        "template--16622763114728__b8307e95-db71-4df7-9258-02c6267b3e6b-167690884271cb6a45-6",
+        "template--16622763114728__b8307e95-db71-4df7-9258-02c6267b3e6b-167690884271cb6a45-7"
+      ],
+      "settings": {
+        "product": "jabon-peaches-cream",
+        "color_scheme": "background-1",
+        "secondary_background": false,
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 16,
+        "padding_bottom": 36
+      }
+    },
+    "16604244643663c6a3": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "1662976794bcc3258f",
+    "1653170999a9a477f0",
+    "rich_text",
+    "multicolumn",
+    "1653171912f77d1ec9",
+    "16531654235197e986",
+    "16531709136f03d296",
+    "16531723412054d932",
+    "165317252119c8885d",
+    "1660424444107b3a2c",
+    "b8307e95-db71-4df7-9258-02c6267b3e6b",
+    "16604244643663c6a3"
+  ]
+}

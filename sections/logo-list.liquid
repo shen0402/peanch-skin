@@ -1,0 +1,49 @@
+<section class="logo-list" id="logo-list">
+    <div class="page-widthh">
+        <div class="as_seen_in_block">
+<!--             <h2>{{section.settings.title}}</h2> -->
+            <div class="logo-list-carucel" >
+              {% for i in (1..10) %}
+                {%- for block in section.blocks -%}
+                    <div class="logo-item" style="--logo-width: {{ block.settings.image.width | plus: 60 }}">
+                        <img src="{{ block.settings.image | img_url: 'master'}}" alt="{{ block.settings.image.alt }}"/>
+                    </div>
+                {%- endfor -%}
+              {%- endfor -%}
+            </div>
+            </div>
+    </div>
+</section>
+{% schema %}
+{
+  "name": "Logo List",
+  "class": "section",
+  "tag": "section",
+  "settings": [
+        {
+            "type": "text",
+            "id": "title",
+            "label": "Title",
+            "default": "Visto en"
+        }
+  ],
+  "blocks": [
+        {
+            "type": "Logo",
+            "name": "Logo",
+            "settings": [
+                {
+                    "type": "image_picker",
+                    "id": "image",
+                    "label": "Image"
+                }
+            ]
+        }
+    ],
+  "presets": [
+        {
+            "name": "Logo List"
+        }
+    ]
+}
+{% endschema %}

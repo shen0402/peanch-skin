@@ -1,0 +1,157 @@
+<div class="eating_health bg-white">
+    <div class="page-width">
+        <div class="eating_header text-center">
+            <h2>{{section.settings.title}}</h2>
+            {{section.settings.text}}
+        </div>
+        <div class="feature-row">
+            <div class="grid">
+                <div class="grid__item medium-up--one-quarter small-hide">
+                    {% for block in section.blocks limit: 2%}
+                        <div class="eating_col">
+                                <div class="eating_icon">
+                                    <img src="{{ block.settings.image | img_url: 'master' }}"/>
+                                </div>
+                                <div class="eating_content">
+                                    <h4>{{ block.settings.title }}</h4>
+                                    {{ block.settings.text }}
+                                </div>
+                        </div>
+                    {% endfor %}
+                </div>
+                <div class="grid__item medium-up--two-quarters">
+                    <div class="FeatureText__ImageWrapper c-image-sliders FeatureText__ContentWrapper" data-before-after-image-container>
+                        <div class="c-image-sliders__comparison" style="padding-bottom: {{ 1 | divided_by: section.settings.image1.aspect_ratio | times: 100 }}%;">
+                              <figure class="c-image-sliders__figure"
+                                 style="background: url({{section.settings.image2 | img_url: 'master'}})">
+                                  <div class="c-image-sliders__handle" data-image-slider-handle="" style="left: 50%;"></div>
+                                  <div class="c-image-sliders__divisor" data-image-slider-divisor=""
+                                      style="background: url({{section.settings.image1 | img_url: 'master'}})">
+                                  </div>
+                              </figure>
+                              <input type="range" min="0" max="100" value="50" class="c-image-sliders__slider" data-image-slider-range="">
+                            <div class="c-image-sliders__labels">
+                                <p class="c-image-sliders__before">{{section.settings.before}}</p>
+                                <p class="c-image-sliders__after">{{section.settings.after}}</p>
+                              </div>
+                          </div>
+                      </div>
+                </div>
+                <div class="grid__item medium-up--one-quarter small-hide">
+                    {% for block in section.blocks offset: 2%}
+                        <div class="eating_col">
+                                <div class="eating_icon">
+                                    <img src="{{ block.settings.image | img_url: 'master' }}">
+                                </div>
+                                <div class="eating_content">
+                                    <h4>{{ block.settings.title }}</h4>
+                                    {{ block.settings.text }}
+                                </div>
+                        </div>
+                    {% endfor %}
+                </div>
+              <div class="grid__item-new mrk-flex-small medium-up--one-quarter medium-hide large-up-hide">
+                    {% for block in section.blocks %}
+                        <div class="eating_col_mobile">
+                                <div class="eating_icon_mobile">
+                                    <img src="{{ block.settings.image | img_url: 'master' }}"/>
+                                </div>
+                                <div class="eating_content_mobile">
+                                    <h4>{{ block.settings.title }}</h4>
+                                    {{ block.settings.text }}
+                                </div>
+                        </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script>
+    document.querySelectorAll("[data-before-after-image-container]").forEach(t => {
+          const e = t.querySelector("[data-image-slider-divisor]"),
+              i = t.querySelector("[data-image-slider-handle]"),
+              n = t.querySelector("[data-image-slider-range]"),
+              o = () => {
+                  i.style.left = n.value + "%", e.style.width = n.value + "%"
+              };
+          n.addEventListener("input", () => {
+              o()
+          }), window.onload = () => {
+              o()
+          }
+      });
+</script>
+{% schema %}
+{
+  "name": "Compare Image New",
+  "class": "section",
+  "tag": "section",
+  "settings": [
+        {
+            "type": "image_picker",
+            "id": "image1",
+            "label": "Before Image"
+        },
+        {
+            "type": "image_picker",
+            "id": "image2",
+            "label": "After Image"
+        },
+        {
+            "type": "text",
+            "id": "title",
+            "label": "Title",
+            "default": "Hair removal just got waaaaay easier"
+        },
+       {
+        "type": "richtext",
+        "id": "text",
+        "label": "Text",
+        "default": "<p>Not all trips to the wax salon ends with a pleasant experience because things can get pretty hairy (get it?) during the whole process. Meet Bleame Crystal Hair Eraser  – the easiest, painless hair removal for a smooth skin instantly!</p>"
+       },
+       {
+            "type": "text",
+            "id": "before",
+            "label": "Before",
+            "default": "Before"
+          },
+          {
+            "type": "text",
+            "id": "after",
+            "label": "After",
+            "default": "After"
+          }
+  ],
+  "blocks": [
+        {
+            "type": "text",
+            "name": "Text Block",
+            "settings": [
+                {
+                    "type": "image_picker",
+                    "id": "image",
+                    "label": "Image"
+                },
+                {
+                    "type": "text",
+                    "id": "title",
+                    "label": "Title",
+                    "default": "Easy to Use"
+                },
+               {
+                "type": "richtext",
+                "id": "text",
+                "label": "Text",
+                "default": "<p>Simply rub it to your skin in circular motion for a hair-free body!</p>"
+               }
+            ]
+        }
+    ],
+  "presets": [
+        {
+            "name": "Compare Image New"
+        }
+    ]
+}
+{% endschema %}

@@ -1,0 +1,48 @@
+{% render 'proviews_rating_schema' %}
+<!-- Proviews Widget Start -->
+<div class="prorw-hide" type="hidden" id="prorw_current_product_info" data-prorw-shop-name='{{shop.name}}' data-prorw-product-url='{{shop.url}}{{product.url}}' data-prorw-product-title='{{product.title}}' data-prorw-product-type='{{product.type}}' data-prorw-product-id ='{{product.id}}' name="prorw_current_product_info" ></div>   
+<h2 class="prorw-heading" id = "prorw_reviews_widget_title">Customer Reviews</h2>
+<div class="prorw-messages">
+  <div class="prorw-thank-you">
+    <h3 id="prorw_user_reply_message">Thank you for submitting your review</h3>
+  </div>
+</div>
+<div id="prorw_review_summary" class="prorw-summary-header">
+  <div class="prorw_review_summary_calculation_bar">{{product.metafields.proviews.calculationReview}}</div>
+  <div id="prorw_review_summary_actions" class="prorw-summary-actions">
+    <div class="prorw-review-header-images-actions" id="prorw_review_summary_actions_filters"></div>
+    <div class="prorw-button-header-actions" id="prorw_review_summary_actions_buttons">
+      <button class="prorw-summary-actions-newreview" id="prorw_review_summary_action_write_review">Write a Review</button>
+      <button class="prorw-summary-actions-newquestion" id="prorw_review_summary_action_write_question" style="">Ask a Question</button>
+    </div>
+  </div>
+</div>
+<div id="prorw_content" class="prorw-content">
+  <div id="prorw_tabmenu_container" class="prorw-tabmenu-container">
+    <ul id="prorw_tabs_menu" class="prorw-tabs-menu" data-prorw-default-tab="prorw_reviews_tab">
+      <li class="prorw-tabs-menu-links active" data-prorw-content="prorw_reviews_container" id="prorw_reviews_tab"  data-type="reviews" data-count="{% if product.metafields.proviews.totalReviewCount != blank %} {{product.metafields.proviews.totalReviewCount}} {% else %} 0 {% endif %} " aria-label="Reviews">Reviews</li>
+      <li class="prorw-tabs-menu-links" data-prorw-content="prorw_questions_container" id="prorw_questions_tab" data-type="questions" style="" data-count="{% if product.metafields.proviews.totalQuestionCount != blank %} {{product.metafields.proviews.totalQuestionCount}} {% else %} 0 {% endif %}" aria-label="Questions" data-new-tab="">Questions</li>
+    </ul>
+  </div>
+  <div id="prorw_reviews_container" class="prorw_reviews_container prorw-tab-content" >
+      {% render 'proviews_reviews_widget' %}
+  </div>
+  <div id="prorw_questions_container" class="prorw_questions_container prorw-tab-content prorw-hide">
+      {% render 'proviews_questions_widget' %}
+  </div>
+  {% if product.metafields.proviews.totalReviewCount == blank or product.metafields.proviews.totalReviewCount == "0" %}
+  <div class="prorw-write-first-review-container">  
+      <div class="prorw-first-review-messages" >
+          <span class="prorw-preview-badge"> 
+              <i class="prorw-icon prorw-fa-star"></i> 
+              <i class="prorw-icon prorw-fa-star"></i> 
+              <i class="prorw-icon prorw-fa-star"></i> 
+              <i class="prorw-icon prorw-fa-star"></i> 
+              <i class="prorw-icon prorw-fa-star"></i> 
+          </span>
+          <div class="prorw-first-review-txt" id = "prorw_first_review_message" >Be the first to review this item</div>
+      </div>
+  </div>
+  {% endif %}
+</div>
+<!-- Proviews Widget End -->

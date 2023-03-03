@@ -1,0 +1,178 @@
+<div class="eating_health bg-white">
+    <div class="page-width">
+        <div class="eating_header text-center">
+            <h2>{{section.settings.title}}</h2>
+            {{section.settings.text}}
+        </div>
+        <div class="feature-row">
+            <div class="grid">
+                <div class="grid__item medium-up--one-quarter">
+                    {% for block in section.blocks limit: 2%}
+                        <div class="eating_col">
+                                <div class="eating_icon">
+                                    <img src="{{ block.settings.image | img_url: 'master' }}"/>
+                                </div>
+                                <div class="eating_content">
+                                    <h4>{{ block.settings.title }}</h4>
+                                    {{ block.settings.text }}
+                                </div>
+                        </div>
+                    {% endfor %}
+                </div>
+                <div class="grid__item medium-up--two-quarters">
+                    <div class="eating_center">
+                        <section class="comparisonSection">
+                            <div class="comparisonImage beforeImage">
+                                <img src="{{ section.settings.image1 | img_url: 'master' }}"
+                                    alt="before"/>
+                            </div>
+                            <div class="comparisonImage afterImage">
+                                <img src="{{ section.settings.image2 | img_url: 'master' }}"
+                                    alt="after"/>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+                <div class="grid__item medium-up--one-quarter">
+                    {% for block in section.blocks offset: 2%}
+                        <div class="eating_col">
+                                <div class="eating_icon">
+                                    <img src="{{ block.settings.image | img_url: 'master' }}">
+                                </div>
+                                <div class="eating_content">
+                                    <h4>{{ block.settings.title }}</h4>
+                                    {{ block.settings.text }}
+                                </div>
+                        </div>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/gsap-latest-beta.min.js?r=5426'></script>
+<script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/16327/ScrollTrigger.min.js?v=3.3'></script>
+  <script>
+  gsap.utils.toArray(".comparisonSection").forEach(section => {
+	let tl = gsap.timeline({
+			scrollTrigger: {
+				trigger: section,
+				start: "center center",
+       
+				end: () => "+=" + section.offsetWidth, 
+				scrub: true,
+				pin: true,
+        anticipatePin: 1
+			},
+			defaults: {ease: "none"}
+		});
+	
+	tl.fromTo(section.querySelector(".afterImage"), { xPercent: 100, x: 0}, {xPercent: 0})
+	  .fromTo(section.querySelector(".afterImage img"), {xPercent: -100, x: 0}, {xPercent: 0}, 0);
+});
+</script>
+
+<style>
+.comparisonSection {
+  position: relative !important;
+  padding-bottom: 56.25%; /* to maintain aspect ratio (responsive!) */
+  top:0px !important;
+  left:0px !important;
+      max-height: initial !important;
+    height: 100% !important;
+  transform: translate(0px, 0px) !important;
+}
+.comparisonImage {
+  width: 100%;
+  height: 100%;
+}
+.afterImage {
+  position: absolute;
+  overflow: hidden;
+  top: 0;
+  transform: translate(100%, 0px);
+  background-color: #fff;
+    border-left: 4px solid #fff
+}
+.afterImage img {
+  transform: translate(-100%, 0px);
+}
+.comparisonImage img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+.pin-spacer {
+    height: 100% !important;
+    padding-bottom: 0px !important;
+}
+.eating_center {
+    position: relative;
+    overflow: hidden;
+    width: 512px;
+    height: 512px;
+}
+</style> 
+{% schema %}
+{
+  "name": "Compare Image",
+  "class": "section",
+  "tag": "section",
+  "settings": [
+        {
+            "type": "image_picker",
+            "id": "image1",
+            "label": "Before Image"
+        },
+        {
+            "type": "image_picker",
+            "id": "image2",
+            "label": "After Image"
+        },
+        {
+            "type": "text",
+            "id": "title",
+            "label": "Title",
+            "default": "Hair removal just got waaaaay easier"
+        },
+       {
+        "type": "richtext",
+        "id": "text",
+        "label": "Text",
+        "default": "<p>Not all trips to the wax salon ends with a pleasant experience because things can get pretty hairy (get it?) during the whole process. Meet Bleame Crystal Hair Eraser  – the easiest, painless hair removal for a smooth skin instantly!</p>"
+       }
+  ],
+  "blocks": [
+        {
+            "type": "text",
+            "name": "Text Block",
+            "settings": [
+                {
+                    "type": "image_picker",
+                    "id": "image",
+                    "label": "Image"
+                },
+                {
+                    "type": "text",
+                    "id": "title",
+                    "label": "Title",
+                    "default": "Easy to Use"
+                },
+               {
+                "type": "richtext",
+                "id": "text",
+                "label": "Text",
+                "default": "<p>Simply rub it to your skin in circular motion for a hair-free body!</p>"
+               }
+            ]
+        }
+    ],
+  "presets": [
+        {
+            "name": "Compare Image"
+        }
+    ]
+}
+{% endschema %}

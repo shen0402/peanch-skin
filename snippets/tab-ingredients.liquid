@@ -1,0 +1,54 @@
+<div class="ingredients-tab-container container-fluid">
+  <div class="ingredients-wrapper">
+    <p class="mission-statement">{{ block.settings.heading }}</p>
+    <div class="row ingredients-row">
+        {%- for i in (1..3) -%}
+            {%- capture title -%}title{{i}}{%- endcapture -%}
+            {%- capture subtitle -%}subtitle{{i}}{%- endcapture -%}
+            {%- capture text -%}text{{i}}{%- endcapture -%}
+            {%- capture img -%}image{{i}}{%- endcapture -%}
+            <div class="ingredients-content-col col-sm-6 col-md-4">
+                <div class="card ingredient-card">
+                  <div class="card-header">
+                    <div class="ingredient-card-img">
+                      <img src="{{block.settings[img] | img_url: 'master'}}" alt="{{block.settings[title]}}" class="card-img">
+                    </div>
+                    <h1 class="ingredient-card-title"> {{block.settings[title]}}</h1>
+                    <p class="ingredient-card-function"> {{block.settings[subtitle]}} </p>
+                  </div>
+                  <div class="card-body">
+                    <div class="ingredient-card-description">{{block.settings[text]}}</div>
+                  </div>
+                </div>
+              </div>
+        {%- endfor -%}
+      
+    </div>
+    <div class="see-more">
+    <modal-opener class="product-popup-modal__opener no-js-hidden quick-add-hidden" data-modal="#PopupModal-{{ block.id }}" {{ block.shopify_attributes }}>
+        <button id="ProductPopup-{{ block.id }}" class="product-popup-modal__button btn ingredients-button btn-link" type="button" aria-haspopup="dialog">{{ block.settings.btn }}
+            <svg viewBox="0 0 16 16" width="1em" height="1em" focusable="false" role="img" aria-label="arrow right" xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi-arrow-right b-icon bi">
+                <g>
+                  <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"></path>
+                </g>
+              </svg>
+        </button>
+    </modal-opener>
+    </div>
+  </div>
+  {%- if block.settings.sub_text != blank -%}
+    <div class="row disclaimer-row" style="background-color: #f15d5d;">
+      <div class="disclaimer-text">{{ block.settings.sub_text }}</div>
+    </div>
+  {%- endif -%}
+</div>
+<modal-dialog id="PopupModal-{{ block.id }}" class="product-popup-modal" {{ block.shopify_attributes }}>
+    <div role="dialog" aria-label="{{ block.settings.text }}" aria-modal="true" class="product-popup-modal__content" tabindex="-1">
+        <button id="ModalClose-{{ block.id }}" type="button" class="product-popup-modal__toggle" aria-label="{{ 'accessibility.close' | t }}">{% render 'icon-close' %}</button>
+        <div class="product-popup-modal__content-info">
+        <h2 class="h2">{{ block.settings.popup_title }}</h2>
+        {{block.settings.popup_text}}
+        {{ block.settings.page.content }}
+        </div>
+    </div>
+</modal-dialog>
