@@ -445,11 +445,12 @@
         "template--16622763114728__b8307e95-db71-4df7-9258-02c6267b3e6b-167690884271cb6a45-6": {
           "type": "buy_buttons",
           "settings": {
-            "show_dynamic_checkout": true
+            "show_dynamic_checkout": false
           }
         },
         "template--16622763114728__b8307e95-db71-4df7-9258-02c6267b3e6b-167690884271cb6a45-7": {
           "type": "share",
+          "disabled": true,
           "settings": {
             "share_label": "Share"
           }
