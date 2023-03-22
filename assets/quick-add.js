@@ -27,8 +27,6 @@ if (!customElements.get('quick-add-modal')) {
           this.preventDuplicatedIDs();
           this.removeDOMElements();
           this.setInnerHTML(this.modalContent, this.productElement.innerHTML);
-          this.querySelector(".product-form__input-new input").removeAttribute('checked');
-          document.querySelectorAll(".product-form__input-new input")[1].setAttribute("checked", true);
           
           if (window.Shopify && Shopify.PaymentButton) {
             Shopify.PaymentButton.init();
