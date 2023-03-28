@@ -291,13 +291,11 @@ fieldset.product-form__input .form__label {
 
 /* Product info */
 
-/* .product__info-container > * + * {
-  margin: 1.5rem 0;
-} */
-
 .product__info-container > * + * {
-  margin: 0;
-}
+  margin: 1.5rem 0;
+} 
+
+
 
 .product__info-container .product-form,
 .product__info-container .product__description {
