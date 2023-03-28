@@ -152,7 +152,7 @@
         "enable_sticky_info": true,
         "gallery_layout": "thumbnail_slider",
         "media_size": "small",
-        "mobile_thumbnails": "hide",
+        "mobile_thumbnails": "show",
         "hide_variants": false,
         "enable_video_looping": false,
         "padding_top": 36,
@@ -327,7 +327,6 @@
         "7b21f72b-20b4-4e99-a169-7a01e56c86fd"
       ],
       "settings": {
-        "image1": "shopify:\/\/shop_images\/Before1.jpg",
         "image2": "shopify:\/\/shop_images\/After.jpg",
         "title": "Adiós velludos problemas",
         "text": "<p>Una piel libre de vello jamás había sido tan fácil de lograr como con Peach. Nuestro borrador de vello se encarga de asegurarte una piel libre de vello y súper suave en segundos.<\/p>"
@@ -473,7 +472,6 @@
         "1660423600b4db0244-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/ernily-gUPznplBsLI-unsplash.jpg",
             "title": "",
             "text": "<p><\/p>",
             "link_label": "",
