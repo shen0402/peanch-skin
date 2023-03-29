@@ -7,7 +7,7 @@ $(document).ready(function () {
      $('.product-form__input--dropdown .select option:selected').removeAttr('selected');
     $('.product-form__input--dropdown .select option:nth-child(2)').attr('selected', 'selected');
 
-    document.querySelector('variant-selects').onVariantChange();
+    
 })
 $(function () {
     $(".ques-heading").click(function (e) {
