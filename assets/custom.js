@@ -4,10 +4,10 @@ $(document).ready(function () {
         var e = $(this).find("a").attr("href");
         return $(e).fadeIn(), !1
     });
-     $('.product-form__input--dropdown .select option:selected').removeAttr('selected');
-    $('.product-form__input--dropdown .select option:nth-child(2)').attr('selected', 'selected');
+    //  $('.product-form__input--dropdown .select option:selected').removeAttr('selected');
+    // $('.product-form__input--dropdown .select option:nth-child(2)').attr('selected', 'selected');
 
-    
+    // document.querySelector('variant-selects').onVariantChange();
 })
 $(function () {
     $(".ques-heading").click(function (e) {
