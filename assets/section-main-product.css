@@ -295,7 +295,17 @@ fieldset.product-form__input .form__label {
   margin: 1.5rem 0;
 } 
 
+.custom_main-product .product__info-container > * + * {
+  margin: 0;
+}
 
+.custom_main-product .product__title {
+  margin-bottom: 1.5rem;
+}
+
+.custom_main-product cart-banner > * {
+  padding: 0;
+}
 
 .product__info-container .product-form,
 .product__info-container .product__description {
