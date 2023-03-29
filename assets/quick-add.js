@@ -27,6 +27,10 @@ if (!customElements.get('quick-add-modal')) {
           this.preventDuplicatedIDs();
           this.removeDOMElements();
           this.setInnerHTML(this.modalContent, this.productElement.innerHTML);
+          var elements = document.querySelectorAll('.product-form__input-new input');
+          elements[0].removeAttribute('checked');
+          elements[1].setAttribute('checked', 'true');
+          document.querySelector('variant-radios').onVariantChange();
           
           if (window.Shopify && Shopify.PaymentButton) {
             Shopify.PaymentButton.init();
