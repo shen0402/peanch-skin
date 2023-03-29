@@ -1077,6 +1077,8 @@ a.product__text {
   color: rgb(var(--color-base-text));
   cursor: pointer;
   background-color: transparent;
+  width: 75px;
+  height: 75px;
 }
 
 .thumbnail:hover {
