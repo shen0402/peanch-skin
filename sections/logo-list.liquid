@@ -1,49 +1,98 @@
+{%- style -%}
+
+  .as_seen_in_block {
+    overflow: hidden;
+  }
+
+  .logo-list-carucel {
+    width: 1550px;
+  }
+
+  .logo-list-carucel .logo-item {
+    width: 155px !important;
+    -webkit-animation: translateinfinitemobile 20s linear infinite;
+    animation: translateinfinitemobile 20s linear infinite;
+  }
+
+
+  @media screen and (min-width: 749px) {
+
+    .logo-list-carucel {
+      width: 3100px;
+    }
+
+    .logo-list-carucel .logo-item {
+      width: 310px !important;
+      -webkit-animation: translateinfinite 30s linear infinite;
+      animation: translateinfinite 30s linear infinite;
+    }
+  }
+
+  @keyframes translateinfinite {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-1550px);
+    }
+  }
+
+  @keyframes translateinfinitemobile {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(calc(-155px * {{ section.blocks.size }}));
+    }
+  }
+{%- endstyle -%}
+
 <section class="logo-list" id="logo-list">
-    <div class="page-widthh">
-        <div class="as_seen_in_block">
-<!--             <h2>{{section.settings.title}}</h2> -->
-            <div class="logo-list-carucel" >
-              {% for i in (1..10) %}
-                {%- for block in section.blocks -%}
-                    <div class="logo-item" style="--logo-width: {{ block.settings.image.width | plus: 60 }}">
-                        <img src="{{ block.settings.image | img_url: 'master'}}" alt="{{ block.settings.image.alt }}"/>
-                    </div>
-                {%- endfor -%}
-              {%- endfor -%}
+  <div class="page-widths">
+    <div class="as_seen_in_block">
+      <!--             <h2>{{section.settings.title}}</h2> -->
+      <div class="logo-list-carucel">
+        {% for i in (1..2) %}
+          {%- for block in section.blocks -%}
+            <div class="logo-item" style="--logo-width: {{ block.settings.image.width | plus: 60 }}">
+              <img src="{{ block.settings.image | img_url: 'master'}}" alt="{{ block.settings.image.alt }}" />
             </div>
-            </div>
+          {%- endfor -%}
+        {%- endfor -%}
+      </div>
     </div>
+  </div>
 </section>
 {% schema %}
-{
-  "name": "Logo List",
-  "class": "section",
-  "tag": "section",
-  "settings": [
-        {
-            "type": "text",
-            "id": "title",
-            "label": "Title",
-            "default": "Visto en"
-        }
-  ],
-  "blocks": [
-        {
-            "type": "Logo",
-            "name": "Logo",
-            "settings": [
-                {
-                    "type": "image_picker",
-                    "id": "image",
-                    "label": "Image"
-                }
-            ]
-        }
+  {
+    "name": "Logo List",
+    "class": "section",
+    "tag": "section",
+    "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Title",
+        "default": "Visto en"
+      }
     ],
-  "presets": [
-        {
-            "name": "Logo List"
-        }
+    "blocks": [
+      {
+        "type": "Logo",
+        "name": "Logo",
+        "settings": [
+          {
+            "type": "image_picker",
+            "id": "image",
+            "label": "Image"
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Logo List"
+      }
     ]
-}
+  }
 {% endschema %}
