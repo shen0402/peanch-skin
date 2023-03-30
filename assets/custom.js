@@ -6,8 +6,13 @@ $(document).ready(function () {
     });
      $('.product-form__input--dropdown .select option:selected').removeAttr('selected');
     $('.product-form__input--dropdown .select option:nth-child(2)').attr('selected', 'selected');
-    document.querySelector('variant-selects').onVariantChange();
-    $("html, body").animate({ scrollTop: 0 }, "fast");
+    if (document.querySelector('variant-selects')) {
+        document.querySelector('variant-selects').onVariantChange();
+        $("html, body").animate({ scrollTop: 0 }, "fast");
+    }
+    if ($('variant-radios input').length > 0) {
+        document.querySelector('variant-radios').onVariantChange();
+    }
 })
 $(function () {
     $(".ques-heading").click(function (e) {
