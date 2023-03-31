@@ -4,3 +4,7 @@ section#logo-list img {
     height: 100%;
     object-fit: cover;
 }
+
+.product-form__input quantity-input {
+    display: none;
+}
