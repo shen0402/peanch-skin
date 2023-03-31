@@ -48,6 +48,7 @@
   transform: translateY(0);
   transition: transform var(--duration-default) ease, visibility 0s;
   visibility: visible;
+  z-index: 10;
 }
 
 .cart-notification__header {
