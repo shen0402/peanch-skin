@@ -778,6 +778,19 @@ class VariantSelects extends HTMLElement {
         return this.options[index] === option;
       }).includes(false);
     });
+    const inputs = document.querySelectorAll('variant-radios input');
+    let selectedIndex;
+    inputs.forEach((t, index) => {
+      if (t.checked) {
+        selectedIndex = index
+      }
+    })
+    const selectedEle = inputs?.[selectedIndex];
+    if (document.querySelector('.giraffly_PC_Preview_Variants_Select')) {
+      const cart_select = document.querySelector('.giraffly_PC_Preview_Variants_Select');
+      document.querySelector('.giraffly_PC_Preview_Variants_Select').value = cart_select.querySelectorAll('option')[selectedIndex].value;
+      this.onVariantChange();
+    }
   }
 
   updateMedia() {
@@ -850,19 +863,7 @@ class VariantSelects extends HTMLElement {
         if (source && destination) destination.innerHTML = source.innerHTML;
 
         const price = document.getElementById(`price-${this.dataset.section}`);
-        // const inputs = document.querySelectorAll('variant-radios input');
-        // let selectedIndex;
-        // inputs.forEach((t, index) => {
-        //   if (t.checked) {
-        //     selectedIndex = index
-        //   }
-        // })
-        // const selectedEle = inputs?.[selectedIndex];
-        // if (document.querySelector('.giraffly_PC_Preview_Variants_Select')) {
-        //   const cart_select = document.querySelector('.giraffly_PC_Preview_Variants_Select');
-        //   document.querySelector('.giraffly_PC_Preview_Variants_Select').value = cart_select.querySelectorAll('option')[selectedIndex].value;
-        //   this.onVariantChange();
-        // }
+        
         if (price) price.classList.remove('visibility-hidden');
         this.toggleAddButton(!this.currentVariant.available, window.variantStrings.soldOut);
       });
