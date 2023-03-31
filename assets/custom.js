@@ -16,8 +16,12 @@ $(document).ready(function () {
 
     setTimeout(function () {
         const cart_select = document.querySelector('.giraffly_PC_Preview_Variants_Select');
-        console.log(cart_select);
-    }, 28000);
+        document.querySelector('.giraffly_PCPreviewbutton').addEventListener('click', function (event) {
+            event.preventDefault();
+            event.stopPropagation();
+            document.querySelector('.product-form__buttons .product-form__submit').click();
+        })
+    }, 27000);
 })
 $(function () {
     $(".ques-heading").click(function (e) {
