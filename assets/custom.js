@@ -14,14 +14,17 @@ $(document).ready(function () {
         document.querySelector('variant-radios').onVariantChange();
     }
 
-    setTimeout(function () {
-        const cart_select = document.querySelector('.giraffly_PC_Preview_Variants_Select');
-        document.querySelector('.giraffly_PCPreviewbutton').addEventListener('click', function (event) {
-            event.preventDefault();
-            event.stopPropagation();
+    document.addEventListener('click', function (e) {
+        let target = $(e.target);
+        if (target.closest('.giraffly_PCPreviewbutton').length > 0) {
+            console.log('herer')
+            e.preventDefault();
+            e.stopPropagation();
+            var number = $('.giraffly_quantity_text').val();
+            $('.quantity__input').val(number);
             document.querySelector('.product-form__buttons .product-form__submit').click();
-        })
-    }, 27000);
+        }
+    })
 })
 $(function () {
     $(".ques-heading").click(function (e) {
