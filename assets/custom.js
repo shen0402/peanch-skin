@@ -20,7 +20,12 @@ $(document).ready(function () {
             console.log('herer')
             e.preventDefault();
             e.stopPropagation();
-            var number = $('.giraffly_quantity_text').val();
+            var number = '';
+            if (target.closest('.giraffly_PCPreviewbutton').length > 0) {
+                number = $('.pc_giraffly_quantity_text').val();
+            } else if (target.closest('.PCPreviewbutton').length > 0) {
+                number = $('.mobile_giraffly_quantity_text').val();
+            }
             $('.quantity__input').val(number);
             document.querySelector('.product-form__buttons .product-form__submit').click();
         }
