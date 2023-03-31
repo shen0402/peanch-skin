@@ -786,12 +786,11 @@ class VariantSelects extends HTMLElement {
       }
     })
     const selectedEle = inputs?.[selectedIndex];
-    console.log(document.querySelector('.giraffly_PC_Preview_Variants_Select'));
     if (document.querySelector('.giraffly_PC_Preview_Variants_Select') != null) {
-      console.log('oko')
       const cart_select = document.querySelector('.giraffly_PC_Preview_Variants_Select');
-      document.querySelector('.giraffly_PC_Preview_Variants_Select').value = cart_select.querySelectorAll('option')[selectedIndex].value;
-      // this.onVariantChange();
+      const cart_phone_select = document.querySelector('.giraffly_phone_Preview_Variants_Select');
+      cart_select.value = cart_select.querySelectorAll('option')[selectedIndex].value;
+      cart_phone_select.value = cart_phone_select.querySelectorAll('option')[selectedIndex].value;
     }
   }
 
