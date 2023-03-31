@@ -778,19 +778,21 @@ class VariantSelects extends HTMLElement {
         return this.options[index] === option;
       }).includes(false);
     });
-    // const inputs = document.querySelectorAll('variant-radios input');
-    // let selectedIndex;
-    // inputs.forEach((t, index) => {
-    //   if (t.checked) {
-    //     selectedIndex = index
-    //   }
-    // })
-    // const selectedEle = inputs?.[selectedIndex];
-    // if (document.querySelector('.giraffly_PC_Preview_Variants_Select')) {
-    //   const cart_select = document.querySelector('.giraffly_PC_Preview_Variants_Select');
-    //   document.querySelector('.giraffly_PC_Preview_Variants_Select').value = cart_select.querySelectorAll('option')[selectedIndex].value;
-    //   this.onVariantChange();
-    // }
+    const inputs = document.querySelectorAll('variant-radios input');
+    let selectedIndex;
+    inputs.forEach((t, index) => {
+      if (t.checked) {
+        selectedIndex = index
+      }
+    })
+    const selectedEle = inputs?.[selectedIndex];
+    console.log(document.querySelector('.giraffly_PC_Preview_Variants_Select'));
+    if (document.querySelector('.giraffly_PC_Preview_Variants_Select') != null) {
+      console.log('oko')
+      const cart_select = document.querySelector('.giraffly_PC_Preview_Variants_Select');
+      document.querySelector('.giraffly_PC_Preview_Variants_Select').value = cart_select.querySelectorAll('option')[selectedIndex].value;
+      // this.onVariantChange();
+    }
   }
 
   updateMedia() {
