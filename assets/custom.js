@@ -13,6 +13,11 @@ $(document).ready(function () {
     if ($('variant-radios input').length > 0) {
         document.querySelector('variant-radios').onVariantChange();
     }
+
+    setTimeout(function () {
+        const cart_select = document.querySelector('.giraffly_PC_Preview_Variants_Select');
+        console.log(cart_select);
+    }, 28000);
 })
 $(function () {
     $(".ques-heading").click(function (e) {
