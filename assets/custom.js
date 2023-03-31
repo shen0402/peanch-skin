@@ -16,10 +16,12 @@ $(document).ready(function () {
 
     document.addEventListener('click', function (e) {
         let target = $(e.target);
-        if (target.closest('.giraffly_PCPreviewbutton').length > 0 || target.closest('.PCPreviewbutton').length > 0) {
+        if (target.closest('.giraffly_PCPreviewbutton').length > 0 || target.closest('.giraffly_PCPreviewbutton').length > 0) {
             console.log('herer')
             e.preventDefault();
             e.stopPropagation();
+            var number = $('.giraffly_quantity_text').val();
+            $('.quantity__input').val(number);
             document.querySelector('.product-form__buttons .product-form__submit').click();
         }
     })
