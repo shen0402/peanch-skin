@@ -14,10 +14,10 @@ $(document).ready(function () {
         document.querySelector('variant-radios').onVariantChange();
     }
 
-    setTimeout(function () {
-        const cart_select = document.querySelector('.giraffly_PC_Preview_Variants_Select');
-        console.log(cart_select);
-    }, 28000);
+    // setTimeout(function () {
+    //     const cart_select = document.querySelector('.giraffly_PC_Preview_Variants_Select');
+    //     console.log(cart_select);
+    // }, 28000);
 })
 $(function () {
     $(".ques-heading").click(function (e) {
