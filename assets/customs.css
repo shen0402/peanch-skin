@@ -8,3 +8,7 @@ section#logo-list img {
 /* .product-form__input quantity-input {
     display: none;
 } */
+
+.custom_main-product .product-form__buttons{
+  margin-top: 10px;
+}
