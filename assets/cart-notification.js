@@ -34,6 +34,7 @@ class CartNotification extends HTMLElement {
   renderContents(parsedState) {
       this.cartItemKey = parsedState.key;
       this.getSectionsToRender().forEach((section => {
+        console.log('there');
         if (this.getSectionInnerHTML(parsedState.sections[section.id], section.selector) != null) {
         document.getElementById(section.id).innerHTML =
           this.getSectionInnerHTML(parsedState.sections[section.id], section.selector);
