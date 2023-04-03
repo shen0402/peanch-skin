@@ -61,15 +61,15 @@
           "settings": {
           }
         },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
             "picker_type": "swatch"
-          }
-        },
-        "quantity_selector": {
-          "type": "quantity_selector",
-          "settings": {
           }
         },
         "buy_buttons": {
@@ -162,8 +162,8 @@
         "description",
         "a6cd7101-46e3-4789-a1b6-88328c9feb65",
         "f3518e4b-2afc-4b56-b871-9842493dfb7d",
-        "variant_picker",
         "quantity_selector",
+        "variant_picker",
         "buy_buttons",
         "8ea5dac8-8acf-4831-8bf7-cd14d0fcc272",
         "6c3edee7-f774-4252-9036-87d1d9498724",
