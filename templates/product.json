@@ -43,15 +43,15 @@
           "settings": {
           }
         },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
             "picker_type": "swatch"
-          }
-        },
-        "quantity_selector": {
-          "type": "quantity_selector",
-          "settings": {
           }
         },
         "buy_buttons": {
@@ -136,8 +136,8 @@
         "5634edc3-5cd7-44e9-a5fd-b27e92c065bd",
         "judgeme_preview_badge_product_page_4a80f3f9",
         "description",
-        "variant_picker",
         "quantity_selector",
+        "variant_picker",
         "buy_buttons",
         "f97f78b2-9438-4620-a4a9-aca24dda6b55",
         "collapsible-row-1",
