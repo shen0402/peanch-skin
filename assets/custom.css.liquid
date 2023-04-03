@@ -1023,11 +1023,15 @@ fieldset.product-form__input-new .form__label {
     border: 2px solid #fff !important;
 }
 
-.qty_swatch label:hover {
+
+@media (min-width: 767px) {
+  .qty_swatch label:hover {
     background-color: {{settings.colors_accent_1}}5c;
     border: 2px solid {{settings.colors_accent_1}} !important;
     border-radius: 10px !important;
+  }
 }
+
 
 .qty_swatch input:checked+label {
     width: 100%;
