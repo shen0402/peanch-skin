@@ -31,7 +31,7 @@
     <link id="ModelViewerOverride" rel="stylesheet" href="{{ 'component-model-viewer-ui.css' | asset_url }}" media="print" onload="this.media='all'">
   {%- endif -%}
 
-  <div class="custom_main-product product product--{{ section.settings.media_size }} product--{{ section.settings.gallery_layout }} grid grid--1-col {% if product.media.size > 0 %}grid--2-col-tablet{% else %}product--no-media{% endif %}">
+  <div class="custom_main-products product product--{{ section.settings.media_size }} product--{{ section.settings.gallery_layout }} grid grid--1-col {% if product.media.size > 0 %}grid--2-col-tablet{% else %}product--no-media{% endif %}">
     <div class="grid__item product__media-wrapper">
       <media-gallery id="MediaGallery-{{ section.id }}" role="region" {% if section.settings.enable_sticky_info %}class="product__media-gallery"{% endif %} aria-label="{{ 'products.product.media.gallery_viewer' | t }}" data-desktop-layout="{{ section.settings.gallery_layout }}">
         <div id="GalleryStatus-{{ section.id }}" class="visually-hidden" role="status"></div>
@@ -321,20 +321,53 @@
                 </div>
               </details>
             </share-button>
+
             <script src="{{ 'share.js' | asset_url }}" defer="defer"></script>
+          {%- when 'free-shipping' -%}
+            <div class="free-shipping_wrapper">
+              <div class="free-shipping_content">
+                <div class="free-shipping">
+                  <div class="free-icon">
+                    {% if block.settings.free_icon != blank %}
+                      <img
+                      src="{{ block.settings.free_icon | image_url: width: 1500 }}"
+                      alt=""
+                      class="blog__image"
+                      loading="lazy">
+                    {% endif %}
+                  </div>
+                  <div class="free-content">
+                    <p class="free-content_text">{{ block.settings.free_text }}</p>
+                    {% comment %} <span class="free-content_price">{{ block.settings.price }}</span> {% endcomment %}
+                  </div>
+                </div>
+                <div class="guarantee free-shipping">
+                  <div class="guarantee-icon free-icon">
+                    {% if block.settings.guarantee_icon != blank %}
+                      <img
+                      src="{{ block.settings.guarantee_icon | image_url: width: 1500 }}"
+                      alt=""
+                      class="blog__image"
+                      loading="lazy">
+                    {% endif %}
+                  </div>
+                  <p class="guarantee-text free-text">{{ block.settings.guarantee_text }}</p>
+                </div>
+              </div>
+            </div>
           {%- when 'variant_picker' -%}
             {%- unless product.has_only_default_variant -%}
               {%- if block.settings.picker_type == 'button' -%}
                 <variant-radios class="no-js-hidden" data-section="{{ section.id }}" data-url="{{ product.url }}" {{ block.shopify_attributes }}>
                   {%- for option in product.options_with_values -%}
                       <fieldset class="js product-form__input">
-                        <legend class="form__label">{{ option.name }}</legend>
+                        <legend class="form__label herere">{{ option.name }}</legend>
                         {%- for value in option.values -%}
                           <input type="radio" id="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}"
                                 name="{{ option.name }}"
                                 value="{{ value | escape }}"
                                 form="{{ product_form_id }}"
-                                {% if option.selected_value == value %}checked{% endif %}
+                                {% if forloop.index == 2 %}checked{% endif %}
                           >
                           <label for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}">
                             {{ value }}
@@ -463,7 +496,7 @@
                 </template>
               </pickup-availability>
             </div>
-
+                
             <script src="{{ 'pickup-availability.js' | asset_url }}" defer="defer"></script>
           {%- when 'rating' -%}
             {%- if product.metafields.reviews.rating.value != blank -%}
@@ -489,7 +522,7 @@
             {%- endif -%}
           {%- endcase -%}
         {%- endfor -%}
-        <a href="{{ product.url }}" class="link product__view-details animate-arrow">
+        <a href="{{ product.url }}" class="link product__view-details animate-arrow" name="{{ product.title }}">
           {{ 'products.product.view_full_details' | t }}
           {% render 'icon-arrow' %}
         </a>
@@ -571,6 +604,7 @@
       document.querySelector('#Variants-{{ section.id }}').addEventListener('change', function(event) {
         hiddenInput.value = event.currentTarget.value;
       });
+      
     });
   </script>
 
@@ -699,6 +733,38 @@
           ],
           "default": "swatch",
           "label": "swatch"
+        }
+      ]
+    },
+    {
+      "type": "free-shipping",
+      "name": "Free shipping",
+      "limit": 1,
+      "settings":[
+        {
+          "type": "image_picker",
+          "id": "free_icon",
+          "label": "Free Icon"
+        },
+        {
+          "type": "text",
+          "id": "free_text",
+          "label": "Free Text"
+        },
+        {
+          "type": "text",
+          "id": "price",
+          "label": "Price"
+        },
+        {
+          "type": "image_picker",
+          "id": "guarantee_icon",
+          "label": "Guarantee Icon"
+        },
+        {
+          "type": "text",
+          "id": "guarantee_text",
+          "label": "Guarantee Text"
         }
       ]
     },
