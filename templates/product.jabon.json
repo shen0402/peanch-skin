@@ -83,6 +83,16 @@
           "settings": {
           }
         },
+        "d4c5d538-08ef-4b88-a11a-af2ef496b7b9": {
+          "type": "free-shipping",
+          "settings": {
+            "free_icon": "shopify:\/\/shop_images\/icons_peach-01_7daa9887-5b3a-450d-88f8-522111aea70a.png",
+            "free_text": "Envío gratis en órdenes +$500",
+            "price": "",
+            "guarantee_icon": "shopify:\/\/shop_images\/icons_peach-02_8a123485-2979-4283-a083-c9385957d873.png",
+            "guarantee_text": "Garantía de 30 días"
+          }
+        },
         "6c3edee7-f774-4252-9036-87d1d9498724": {
           "type": "small-icons-with-text",
           "settings": {
@@ -166,6 +176,7 @@
         "variant_picker",
         "buy_buttons",
         "8ea5dac8-8acf-4831-8bf7-cd14d0fcc272",
+        "d4c5d538-08ef-4b88-a11a-af2ef496b7b9",
         "6c3edee7-f774-4252-9036-87d1d9498724",
         "collapsible-row-1",
         "collapsible-row-2",
