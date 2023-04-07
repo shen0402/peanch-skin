@@ -59,3 +59,13 @@ section#logo-list img {
 .free-shipping_content .guarantee-text {
     text-align: center;
 }
+
+@media (max-width:767px) {
+    .free-shipping_content .free-shipping {
+        flex-direction: column;
+    }
+
+    .free-shipping_content .guarantee .guarantee-icon {
+        width: 30%;
+    }
+}
