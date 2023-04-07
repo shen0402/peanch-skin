@@ -16,6 +16,57 @@
         "include_margins": false
       }
     },
+    "95a45603-3a2f-4633-a8c8-f9cff0bf9f6d": {
+      "type": "collapsible-content",
+      "blocks": {
+        "template--16704283640040__95a45603-3a2f-4633-a8c8-f9cff0bf9f6d-1680890172fff45b58-0": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "¿Cuánto tarda en llegar mi orden?",
+            "icon": "box",
+            "row_content": "<p>Ten por seguro que queremos que recibas tu orden lo antes posible, pero debido a la alta carga de las paqueterías, las órdenes pueden demorar en llegar de 3 a 5 días hábiles.<\/p>",
+            "page": ""
+          }
+        },
+        "template--16704283640040__95a45603-3a2f-4633-a8c8-f9cff0bf9f6d-1680890172fff45b58-1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "¿Cómo funciona?",
+            "icon": "lightning_bolt",
+            "row_content": "<p>Nuestro Peach de última generación utiliza nanotecnología la cual permite agrupar y remover los vellos de la superficie de la piel sin irritarla ni resecarla.<br\/><br\/>Con tan solo frotarlo sobre la superficie de la piel limpia y seca, es suficiente para revelar una piel de durazno libre de vellos en segundos.<\/p>",
+            "page": ""
+          }
+        },
+        "template--16704283640040__95a45603-3a2f-4633-a8c8-f9cff0bf9f6d-1680890172fff45b58-2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "¿Cómo lo uso?",
+            "icon": "star",
+            "row_content": "<p>Simplemente frótalo sobre tu piel limpia y seca mediante movimientos cortos y circulares.<\/p><p>Verás como al instante remueve los vellos de la superficie de la piel dejándola súper suave.<\/p><p>Después de utilizarlo, enjuaga tu Peach con agua y déjalo secar.<br\/><br\/>Guárdalo y ¡listo! 🍑<\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16704283640040__95a45603-3a2f-4633-a8c8-f9cff0bf9f6d-1680890172fff45b58-0",
+        "template--16704283640040__95a45603-3a2f-4633-a8c8-f9cff0bf9f6d-1680890172fff45b58-1",
+        "template--16704283640040__95a45603-3a2f-4633-a8c8-f9cff0bf9f6d-1680890172fff45b58-2"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "Collapsible content",
+        "heading_size": "h1",
+        "heading_alignment": "center",
+        "layout": "none",
+        "color_scheme": "background-1",
+        "container_color_scheme": "background-2",
+        "open_first_collapsible_row": false,
+        "image_ratio": "adapt",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "faq": {
       "type": "wonderment-faq",
       "disabled": true,
@@ -166,6 +217,7 @@
   },
   "order": [
     "1680890116a5ba6736",
+    "95a45603-3a2f-4633-a8c8-f9cff0bf9f6d",
     "faq",
     "products",
     "rebuy",
