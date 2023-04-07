@@ -1,5 +1,26 @@
 {
   "sections": {
+    "9c3cf657-7763-40d0-ac33-2a6a2f54550b": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16704283640040__9c3cf657-7763-40d0-ac33-2a6a2f54550b-1680890467c613045d-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Estado de su Pedido",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "template--16704283640040__9c3cf657-7763-40d0-ac33-2a6a2f54550b-1680890467c613045d-0"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "1680890116a5ba6736": {
       "type": "apps",
       "blocks": {
@@ -261,6 +282,7 @@
     }
   },
   "order": [
+    "9c3cf657-7763-40d0-ac33-2a6a2f54550b",
     "1680890116a5ba6736",
     "95a45603-3a2f-4633-a8c8-f9cff0bf9f6d",
     "faq",
