@@ -213,6 +213,51 @@
         "fairing-response-padding": 5,
         "fairing-responses-margin": 20
       }
+    },
+    "eac9bf12-7174-46c2-afd8-79ca784bb7e3": {
+      "type": "logo-list",
+      "blocks": {
+        "5af08aa4-34f9-4993-94d6-8e2a0d9e1dcb": {
+          "type": "Logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Vanidades-min.png"
+          }
+        },
+        "21036fa7-b653-44f2-9121-3013db5c9f46": {
+          "type": "Logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Marie-min.png"
+          }
+        },
+        "184c3b8a-158e-423f-8786-ecb5e388d7da": {
+          "type": "Logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Glamour-min.png"
+          }
+        },
+        "aea7c532-57c6-4911-9c09-735291875866": {
+          "type": "Logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Elle-min.png"
+          }
+        },
+        "14fa47ba-66ba-406e-918f-6e56ce0317bf": {
+          "type": "Logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Cosmopolitan-min_315a6365-08c7-4787-a26b-05f6b2da048d.png"
+          }
+        }
+      },
+      "block_order": [
+        "5af08aa4-34f9-4993-94d6-8e2a0d9e1dcb",
+        "21036fa7-b653-44f2-9121-3013db5c9f46",
+        "184c3b8a-158e-423f-8786-ecb5e388d7da",
+        "aea7c532-57c6-4911-9c09-735291875866",
+        "14fa47ba-66ba-406e-918f-6e56ce0317bf"
+      ],
+      "settings": {
+        "title": "Visto en"
+      }
     }
   },
   "order": [
@@ -221,6 +266,7 @@
     "faq",
     "products",
     "rebuy",
-    "fairing"
+    "fairing",
+    "eac9bf12-7174-46c2-afd8-79ca784bb7e3"
   ]
 }
