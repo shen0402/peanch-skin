@@ -107,7 +107,7 @@
           "settings": {
             "heading": "Envío",
             "icon": "truck",
-            "content": "<p>El costo de envío para todo México es de $69.<br\/><br\/>Para órdenes de dúos y triples el envío va por nuestra cuenta y es completamente <strong>GRATIS.<br\/><br\/><\/strong>Órdenes fuera de México el envío se calcula en el <em>checkout<\/em>.<br\/><br\/>Enviamos desde la Ciudad de México 😊<\/p>",
+            "content": "<p>El costo de envío es de $69.<br\/><br\/>En órdenes mayores a $500 el envío va por nuestra cuenta y es completamente <strong>GRATIS.<br\/><br\/><\/strong>Órdenes dentro de México se envían desde la Ciudad de México y para Colombia enviamos desde Bogotá 😊 <\/p>",
             "page": ""
           }
         },
