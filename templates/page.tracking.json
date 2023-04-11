@@ -52,18 +52,18 @@
         "template--16704283640040__95a45603-3a2f-4633-a8c8-f9cff0bf9f6d-1680890172fff45b58-1": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "¿Cómo funciona?",
+            "heading": "¿Qué paquetería utilizan para enviar y entregar los pedidos?",
             "icon": "lightning_bolt",
-            "row_content": "<p>Nuestro Peach de última generación utiliza nanotecnología la cual permite agrupar y remover los vellos de la superficie de la piel sin irritarla ni resecarla.<br\/><br\/>Con tan solo frotarlo sobre la superficie de la piel limpia y seca, es suficiente para revelar una piel de durazno libre de vellos en segundos.<\/p>",
+            "row_content": "<p>Depende de tu ubicación pero trabajamos con Estafeta, UPS, DHL y 99 minutos :)<\/p>",
             "page": ""
           }
         },
         "template--16704283640040__95a45603-3a2f-4633-a8c8-f9cff0bf9f6d-1680890172fff45b58-2": {
           "type": "collapsible_row",
           "settings": {
-            "heading": "¿Cómo lo uso?",
-            "icon": "star",
-            "row_content": "<p>Simplemente frótalo sobre tu piel limpia y seca mediante movimientos cortos y circulares.<\/p><p>Verás como al instante remueve los vellos de la superficie de la piel dejándola súper suave.<\/p><p>Después de utilizarlo, enjuaga tu Peach con agua y déjalo secar.<br\/><br\/>Guárdalo y ¡listo! 🍑<\/p>",
+            "heading": "Necesito más ayuda",
+            "icon": "question_mark",
+            "row_content": "<p>No te preocupes, contáctanos vía correo electrónico a <a href=\"mailto:hello@peach.skin\" title=\"mailto:hello@peach.skin\">hello@peach.skin<\/a> y te responderemos en menos de 24 horas.<\/p>",
             "page": ""
           }
         }
@@ -75,7 +75,7 @@
       ],
       "settings": {
         "caption": "",
-        "heading": "Collapsible content",
+        "heading": "Preguntas Frecuentes",
         "heading_size": "h1",
         "heading_alignment": "center",
         "layout": "none",
