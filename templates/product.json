@@ -129,6 +129,7 @@
         },
         "a6cd7101-46e3-4789-a1b6-88328c9feb65": {
           "type": "icons",
+          "disabled": true,
           "settings": {
             "image1": "shopify:\/\/shop_images\/airplane_3_1.jpg",
             "title1": "Envíos inmediatos",
