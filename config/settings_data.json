@@ -202,8 +202,8 @@
         "type": "announcement",
         "settings": {
           "enable_annoucement": true,
-          "text": "🧡 +10,000 casos de éxito | 20% OFF - Código: MOM20",
-          "url": "shopify:\/\/products\/borrador-de-vello-peach",
+          "text": "🧡 +10,000 casos de éxito | CÁMBIATE AHORA",
+          "url": "shopify:\/\/collections\/all",
           "bg": "#f15d5d",
           "color": "#ffffff"
         }
