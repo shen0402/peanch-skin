@@ -202,7 +202,7 @@
         "type": "announcement",
         "settings": {
           "enable_annoucement": true,
-          "text": "🔥 EL HOT SALE SE APLICA AUTOMÁTICAMENTE EN EL CHECKOUT 🔥",
+          "text": "🔥 APROVECHA EL HOT SALE | 30% OFF🔥",
           "url": "shopify:\/\/collections\/all",
           "bg": "#f15d5d",
           "color": "#ffffff"
