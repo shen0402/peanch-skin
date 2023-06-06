@@ -31,26 +31,6 @@
         "image": "shopify:\/\/shop_images\/both.png"
       }
     },
-    "86ecbe4d-8d04-4453-9ca1-e5dc5428ef90": {
-      "type": "rich-text",
-      "blocks": {
-        "15b0a4f0-7bc1-49de-a103-f4807d5fc8ca": {
-          "type": "text",
-          "settings": {
-            "text": "<p><strong>Nos encargamos de que te sientas cómoda y segura en tu piel.<\/strong><\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "15b0a4f0-7bc1-49de-a103-f4807d5fc8ca"
-      ],
-      "settings": {
-        "color_scheme": "accent-2",
-        "full_width": true,
-        "padding_top": 32,
-        "padding_bottom": 32
-      }
-    },
     "product-grid": {
       "type": "main-collection-product-grid",
       "settings": {
@@ -69,49 +49,24 @@
         "padding_bottom": 60
       }
     },
-    "1996b107-dfa6-4f9c-864c-7c6594790965": {
-      "type": "logo-list",
+    "86ecbe4d-8d04-4453-9ca1-e5dc5428ef90": {
+      "type": "rich-text",
       "blocks": {
-        "9f678bc7-4ea0-4713-a4c0-c1ee75406254": {
-          "type": "Logo",
+        "15b0a4f0-7bc1-49de-a103-f4807d5fc8ca": {
+          "type": "text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Glamour-min.png"
-          }
-        },
-        "8d8572c6-77dd-4e11-8ee3-8f1ff4ec6968": {
-          "type": "Logo",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Elle-min.png"
-          }
-        },
-        "dd51e225-864e-4b68-a396-5f8e7c5350b0": {
-          "type": "Logo",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Cosmopolitan-min.png"
-          }
-        },
-        "645796b5-b690-4f27-9b30-ee381337f142": {
-          "type": "Logo",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Vanidades-min.png"
-          }
-        },
-        "95afa39f-c0ca-44fd-99e5-36943294a691": {
-          "type": "Logo",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Marie-min.png"
+            "text": "<p><strong>Nos encargamos de que te sientas cómoda y segura en tu piel.<\/strong><\/p>"
           }
         }
       },
       "block_order": [
-        "9f678bc7-4ea0-4713-a4c0-c1ee75406254",
-        "8d8572c6-77dd-4e11-8ee3-8f1ff4ec6968",
-        "dd51e225-864e-4b68-a396-5f8e7c5350b0",
-        "645796b5-b690-4f27-9b30-ee381337f142",
-        "95afa39f-c0ca-44fd-99e5-36943294a691"
+        "15b0a4f0-7bc1-49de-a103-f4807d5fc8ca"
       ],
       "settings": {
-        "title": "Visto en"
+        "color_scheme": "accent-2",
+        "full_width": true,
+        "padding_top": 32,
+        "padding_bottom": 32
       }
     },
     "d98a36ba-d771-442c-b2c2-eb21885b2748": {
@@ -173,6 +128,51 @@
         "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "1996b107-dfa6-4f9c-864c-7c6594790965": {
+      "type": "logo-list",
+      "blocks": {
+        "9f678bc7-4ea0-4713-a4c0-c1ee75406254": {
+          "type": "Logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Glamour-min.png"
+          }
+        },
+        "8d8572c6-77dd-4e11-8ee3-8f1ff4ec6968": {
+          "type": "Logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Elle-min.png"
+          }
+        },
+        "dd51e225-864e-4b68-a396-5f8e7c5350b0": {
+          "type": "Logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Cosmopolitan-min.png"
+          }
+        },
+        "645796b5-b690-4f27-9b30-ee381337f142": {
+          "type": "Logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Vanidades-min.png"
+          }
+        },
+        "95afa39f-c0ca-44fd-99e5-36943294a691": {
+          "type": "Logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Marie-min.png"
+          }
+        }
+      },
+      "block_order": [
+        "9f678bc7-4ea0-4713-a4c0-c1ee75406254",
+        "8d8572c6-77dd-4e11-8ee3-8f1ff4ec6968",
+        "dd51e225-864e-4b68-a396-5f8e7c5350b0",
+        "645796b5-b690-4f27-9b30-ee381337f142",
+        "95afa39f-c0ca-44fd-99e5-36943294a691"
+      ],
+      "settings": {
+        "title": "Visto en"
       }
     },
     "a869edc8-ab15-4716-a484-3a1f24dc8e7e": {
@@ -383,10 +383,10 @@
     "banner",
     "016ba06f-c7b7-49a7-9cb2-9f98c8023abd",
     "2e3b511f-f382-4620-b6e3-5931bd0274fe",
-    "86ecbe4d-8d04-4453-9ca1-e5dc5428ef90",
     "product-grid",
-    "1996b107-dfa6-4f9c-864c-7c6594790965",
+    "86ecbe4d-8d04-4453-9ca1-e5dc5428ef90",
     "d98a36ba-d771-442c-b2c2-eb21885b2748",
+    "1996b107-dfa6-4f9c-864c-7c6594790965",
     "a869edc8-ab15-4716-a484-3a1f24dc8e7e",
     "cc297287-8c7f-4393-8027-c43fe5a7b177",
     "6cb9a9a7-dc56-4d5c-9127-f5a55b57150e",
