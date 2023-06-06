@@ -366,7 +366,7 @@
       "settings": {
         "class": "bg-about",
         "image": "shopify:\/\/shop_images\/lovepeachyskin_0f3ee5d8-e30f-4bb7-b6ed-c6cf961bede6.png",
-        "height": "small",
+        "height": "large",
         "desktop_image_width": "medium",
         "layout": "text_first",
         "desktop_content_position": "top",
