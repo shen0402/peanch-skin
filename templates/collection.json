@@ -121,7 +121,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/9.png",
-            "title": "@malinallip",
+            "title": "",
             "text": "",
             "link_label": "",
             "link": ""
@@ -158,7 +158,7 @@
       "settings": {
         "class": "mrk-image-columns",
         "enable_reviews": false,
-        "title": "Lo más Hot 🔥",
+        "title": "Lo más Hot 🔥 ...",
         "subheading": "",
         "heading_size": "h1",
         "image_width": "full",
