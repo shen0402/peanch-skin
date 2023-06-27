@@ -202,7 +202,7 @@
         "type": "announcement",
         "settings": {
           "enable_annoucement": true,
-          "text": "🔥 APROVECHA EL HOT SALE | 30% OFF🔥",
+          "text": "ENVÍO GRATIS EN ÓRDENES +$500 >",
           "url": "shopify:\/\/collections\/all",
           "bg": "#f15d5d",
           "color": "#ffffff"
