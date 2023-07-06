@@ -254,6 +254,12 @@
         "disabled": false,
         "settings": {
         }
+      },
+      "6248343940173316906": {
+        "type": "shopify:\/\/apps\/seoant-sticky-add-to-cart\/blocks\/sticky-cart\/bba5bb0a-ae9e-4ec9-8cd1-5e9d3f32ebbe",
+        "disabled": false,
+        "settings": {
+        }
       }
     }
   },
