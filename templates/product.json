@@ -34,7 +34,7 @@
           }
         },
         "judgeme_preview_badge_product_page_4a80f3f9": {
-          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
           }
         },
@@ -301,7 +301,6 @@
     },
     "166296727286919b57": {
       "type": "compare-image-section",
-      "disabled": true,
       "blocks": {
         "536ed112-c029-4cc5-b13c-a3a7926603b1": {
           "type": "text",
@@ -338,6 +337,7 @@
         "4f36957e-dfdf-4365-b7cc-2dea0a5d0843",
         "7b21f72b-20b4-4e99-a169-7a01e56c86fd"
       ],
+      "disabled": true,
       "settings": {
         "image2": "shopify:\/\/shop_images\/After.jpg",
         "title": "Adiós velludos problemas",
@@ -426,7 +426,6 @@
     },
     "image-with-text": {
       "type": "image-with-text",
-      "disabled": true,
       "blocks": {
         "image-with-text-0": {
           "type": "heading",
@@ -447,6 +446,7 @@
         "image-with-text-0",
         "image-with-text-1"
       ],
+      "disabled": true,
       "settings": {
         "class": "",
         "image": "shopify:\/\/shop_images\/Malina_Rica.png",
@@ -479,7 +479,6 @@
     },
     "1660423601426ea557": {
       "type": "multicolumn",
-      "disabled": true,
       "blocks": {
         "1660423600b4db0244-0": {
           "type": "column",
@@ -504,6 +503,7 @@
         "1660423600b4db0244-0",
         "1660423600b4db0244-1"
       ],
+      "disabled": true,
       "settings": {
         "class": "",
         "enable_reviews": false,
@@ -668,7 +668,6 @@
     },
     "16604872071c30fc2f": {
       "type": "rich-text",
-      "disabled": true,
       "blocks": {
         "1660487207eec76f7c-0": {
           "type": "heading",
@@ -681,6 +680,7 @@
       "block_order": [
         "1660487207eec76f7c-0"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "background-1",
         "full_width": true,
@@ -692,7 +692,7 @@
       "type": "apps",
       "blocks": {
         "judgeme_review_widget_c19b8159": {
-          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
           }
         }
@@ -844,6 +844,34 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
+    },
+    "1694444439b8a54edd": {
+      "type": "apps",
+      "blocks": {
+        "3b409182-134d-4c5a-a6e7-d8635cd178b1": {
+          "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "heading_size": 20,
+            "feed_width": 100,
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "3b409182-134d-4c5a-a6e7-d8635cd178b1"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "75e3df8c-556d-4e97-b7ce-cf9fdfcd1b94": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -865,6 +893,8 @@
     "16631503339562ac4d",
     "1659275866c9c44e2c",
     "multicolumn",
-    "product-recommendations"
+    "product-recommendations",
+    "1694444439b8a54edd",
+    "75e3df8c-556d-4e97-b7ce-cf9fdfcd1b94"
   ]
 }
