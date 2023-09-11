@@ -6,14 +6,14 @@
         "1657542994cdb77b2a-0": {
           "type": "heading",
           "settings": {
-            "heading": "Reinventando la relación con tu piel.",
+            "heading": "Reinventando la relación con tu piel",
             "heading_size": "h0"
           }
         },
         "1657542994cdb77b2a-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Nuestro Peach de última generación utiliza nanotecnología la cual permite agrupar y remover los vellos de la superficie de la piel sin irritarla ni resecarla.<\/p><p><\/p><p>Además, este innovador proceso exfolia gentilmente las células muertas de la piel logrando una piel ultra suave al instante.<\/p>"
+            "text": "<p>Estamos apasionados por mejorar tu día a día con soluciones más amigables con tu piel y con el planeta.<\/p>"
           }
         },
         "1657542994cdb77b2a-2": {
@@ -52,22 +52,22 @@
         "165754321936e18304-0": {
           "type": "heading",
           "settings": {
-            "heading": "Creemos que todos merecen sentirse cómodos en su propia piel.",
+            "heading": "Todos merecemos sentirnos cómodos con nuestra propia piel",
             "heading_size": "h2"
           }
         },
         "165754321936e18304-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Nuestra misión es traer para ti soluciones que te hagan verte y sentirte mejor a través de tu piel.<\/p>",
+            "text": "<p>Nuestra misión es crear soluciones que te hagan verte y sentirte mejor.<\/p>",
             "text_style": "body"
           }
         },
         "165754321936e18304-2": {
           "type": "button",
           "settings": {
-            "button_label": "Comprar Ahora",
-            "button_link": "shopify:\/\/products\/borrador-de-vello-peach"
+            "button_label": "VER PRODUCTOS",
+            "button_link": "shopify:\/\/collections\/all"
           }
         }
       },
@@ -78,7 +78,7 @@
       ],
       "settings": {
         "class": "",
-        "image": "shopify:\/\/shop_images\/600_x_600.png",
+        "image": "shopify:\/\/shop_images\/Untitled_design_c8fdc337-d0da-41c8-bd8b-2feecc051393.png",
         "height": "adapt",
         "desktop_image_width": "small",
         "layout": "image_first",
@@ -124,7 +124,7 @@
       ],
       "settings": {
         "class": "",
-        "image": "shopify:\/\/shop_images\/600_x_600_1.png",
+        "image": "shopify:\/\/shop_images\/beautiful-woman-wearing-casual-denim-jacket-isolated-wall-hands-together-fingers-crossed-smiling-relaxed-cheerful-success-optimistic-min.jpg",
         "height": "adapt",
         "desktop_image_width": "small",
         "layout": "text_first",
@@ -170,7 +170,7 @@
       ],
       "settings": {
         "class": "",
-        "image": "shopify:\/\/shop_images\/600_x_600_2.png",
+        "image": "shopify:\/\/shop_images\/Untitled_design_83733dc2-17a0-4d22-9dc3-901db1dc5dd4.png",
         "height": "adapt",
         "desktop_image_width": "small",
         "layout": "image_first",
@@ -204,6 +204,81 @@
         "padding_bottom": 24
       }
     },
+    "17a6fd3a-0832-4c9f-855c-f46ad97df9ab": {
+      "type": "featured-product",
+      "blocks": {
+        "template--16687635366120__17a6fd3a-0832-4c9f-855c-f46ad97df9ab-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "template--16687635366120__17a6fd3a-0832-4c9f-855c-f46ad97df9ab-title-1": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "template--16687635366120__17a6fd3a-0832-4c9f-855c-f46ad97df9ab-text-2": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "template--16687635366120__17a6fd3a-0832-4c9f-855c-f46ad97df9ab-price-1": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "template--16687635366120__17a6fd3a-0832-4c9f-855c-f46ad97df9ab-variant_picker-1": {
+          "type": "variant_picker",
+          "disabled": true,
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "template--16687635366120__17a6fd3a-0832-4c9f-855c-f46ad97df9ab-quantity_selector-1": {
+          "type": "quantity_selector",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "template--16687635366120__17a6fd3a-0832-4c9f-855c-f46ad97df9ab-buy_buttons-1": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false
+          }
+        },
+        "template--16687635366120__17a6fd3a-0832-4c9f-855c-f46ad97df9ab-share-1": {
+          "type": "share",
+          "disabled": true,
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "template--16687635366120__17a6fd3a-0832-4c9f-855c-f46ad97df9ab-text-1",
+        "template--16687635366120__17a6fd3a-0832-4c9f-855c-f46ad97df9ab-title-1",
+        "template--16687635366120__17a6fd3a-0832-4c9f-855c-f46ad97df9ab-text-2",
+        "template--16687635366120__17a6fd3a-0832-4c9f-855c-f46ad97df9ab-price-1",
+        "template--16687635366120__17a6fd3a-0832-4c9f-855c-f46ad97df9ab-variant_picker-1",
+        "template--16687635366120__17a6fd3a-0832-4c9f-855c-f46ad97df9ab-quantity_selector-1",
+        "template--16687635366120__17a6fd3a-0832-4c9f-855c-f46ad97df9ab-buy_buttons-1",
+        "template--16687635366120__17a6fd3a-0832-4c9f-855c-f46ad97df9ab-share-1"
+      ],
+      "settings": {
+        "product": "jabon-peaches-cream",
+        "color_scheme": "background-1",
+        "secondary_background": false,
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "1658157521b400206b": {
       "type": "featured-product",
       "blocks": {
@@ -234,23 +309,26 @@
         },
         "1658157521e69ad24f-4": {
           "type": "variant_picker",
+          "disabled": true,
           "settings": {
             "picker_type": "dropdown"
           }
         },
         "1658157521e69ad24f-5": {
           "type": "quantity_selector",
+          "disabled": true,
           "settings": {
           }
         },
         "1658157521e69ad24f-6": {
           "type": "buy_buttons",
           "settings": {
-            "show_dynamic_checkout": true
+            "show_dynamic_checkout": false
           }
         },
         "1658157521e69ad24f-7": {
           "type": "share",
+          "disabled": true,
           "settings": {
             "share_label": "Compartir"
           }
@@ -312,6 +390,7 @@
     "1657543504e1a83c14",
     "1657544085d65c9d39",
     "1657544636e3b6c2ad",
+    "17a6fd3a-0832-4c9f-855c-f46ad97df9ab",
     "1658157521b400206b",
     "169444463840b82f46",
     "ad5966d2-8acf-43bb-8084-0621fa74e22c"
