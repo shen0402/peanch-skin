@@ -16,7 +16,7 @@
           }
         },
         "5eeee072-a0b1-4552-8dc9-f942bfc58f4c": {
-          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "disabled": true,
           "settings": {
           }
@@ -56,7 +56,7 @@
           }
         },
         "f3518e4b-2afc-4b56-b871-9842493dfb7d": {
-          "type": "shopify:\/\/apps\/appstle-subscriptions\/blocks\/appstle-subscription-product-page-widget\/fe257d39-6f88-4f35-ab08-bd437e3aa94e",
+          "type": "shopify:\/\/apps\/appstle-subscriptions-app\/blocks\/appstle-subscription-product-page-widget\/fe257d39-6f88-4f35-ab08-bd437e3aa94e",
           "disabled": true,
           "settings": {
           }
@@ -345,7 +345,6 @@
     },
     "166296727286919b57": {
       "type": "compare-image-section",
-      "disabled": true,
       "blocks": {
         "536ed112-c029-4cc5-b13c-a3a7926603b1": {
           "type": "text",
@@ -382,6 +381,7 @@
         "4f36957e-dfdf-4365-b7cc-2dea0a5d0843",
         "7b21f72b-20b4-4e99-a169-7a01e56c86fd"
       ],
+      "disabled": true,
       "settings": {
         "image2": "shopify:\/\/shop_images\/After.jpg",
         "title": "Adiós velludos problemas",
@@ -390,7 +390,6 @@
     },
     "1663147365fed27175": {
       "type": "hairfree",
-      "disabled": true,
       "blocks": {
         "08970b47-c67c-4001-a320-1ec44d3f5b88": {
           "type": "Percent",
@@ -419,6 +418,7 @@
         "4a6dbe35-558a-4ee3-9930-04c9ecf2c642",
         "410f0975-72cd-4356-bc8f-8560201f2960"
       ],
+      "disabled": true,
       "settings": {
         "title": "¡El futuro es libre de vellos! 🧡",
         "video_url": "https:\/\/player.vimeo.com\/video\/759738216?autoplay=1&playsinline=1&color&aautopause=0&loop=1&muted=1&title=1&portrait=1&byline=1",
@@ -429,7 +429,6 @@
     },
     "16629652886a70d667": {
       "type": "tabs",
-      "disabled": true,
       "blocks": {
         "32ebfba3-f78d-4661-918c-a751840d4a80": {
           "type": "Tav",
@@ -466,13 +465,13 @@
         "b664bd23-276c-405d-b3e9-bc380b148550",
         "311da8bd-37c3-49d2-8c88-c675d8e510f8"
       ],
+      "disabled": true,
       "settings": {
         "title": "Míralo en acción. No importa la zona, tu borrador se adapta."
       }
     },
     "image-with-text": {
       "type": "image-with-text",
-      "disabled": true,
       "blocks": {
         "image-with-text-0": {
           "type": "heading",
@@ -493,6 +492,7 @@
         "image-with-text-0",
         "image-with-text-1"
       ],
+      "disabled": true,
       "settings": {
         "class": "",
         "image": "shopify:\/\/shop_images\/Malina_Rica.png",
@@ -525,7 +525,6 @@
     },
     "1660423601426ea557": {
       "type": "multicolumn",
-      "disabled": true,
       "blocks": {
         "1660423600b4db0244-0": {
           "type": "column",
@@ -550,6 +549,7 @@
         "1660423600b4db0244-0",
         "1660423600b4db0244-1"
       ],
+      "disabled": true,
       "settings": {
         "class": "",
         "enable_reviews": false,
@@ -572,7 +572,6 @@
     },
     "1660487252e1e3d2fd": {
       "type": "multicolumn",
-      "disabled": true,
       "blocks": {
         "16604872515b02af13-0": {
           "type": "column",
@@ -610,6 +609,7 @@
         "16604872515b02af13-1",
         "16604872515b02af13-2"
       ],
+      "disabled": true,
       "settings": {
         "class": "",
         "enable_reviews": true,
@@ -632,7 +632,6 @@
     },
     "1657546992097883cf": {
       "type": "image-with-text",
-      "disabled": true,
       "blocks": {
         "1657546992655b04df-0": {
           "type": "heading",
@@ -662,6 +661,7 @@
         "1657546992655b04df-1",
         "1657546992655b04df-2"
       ],
+      "disabled": true,
       "settings": {
         "class": "",
         "image": "shopify:\/\/shop_images\/lovepeachyskin_0f3ee5d8-e30f-4bb7-b6ed-c6cf961bede6.png",
@@ -679,7 +679,6 @@
     },
     "1663149244aa613b9e": {
       "type": "image-with-text",
-      "disabled": true,
       "blocks": {
         "1663149244c8c3fc39-0": {
           "type": "heading",
@@ -700,6 +699,7 @@
         "1663149244c8c3fc39-0",
         "1663149244c8c3fc39-1"
       ],
+      "disabled": true,
       "settings": {
         "class": "",
         "image": "shopify:\/\/shop_images\/WhatsApp_Image_2022-09-17_at_11.05.24.jpg",
@@ -717,7 +717,6 @@
     },
     "16604872071c30fc2f": {
       "type": "rich-text",
-      "disabled": true,
       "blocks": {
         "1660487207eec76f7c-0": {
           "type": "heading",
@@ -730,6 +729,7 @@
       "block_order": [
         "1660487207eec76f7c-0"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "background-1",
         "full_width": true,
@@ -739,7 +739,6 @@
     },
     "e78f00db-244c-43a8-a892-0a321465829b": {
       "type": "videos-column",
-      "disabled": true,
       "blocks": {
         "template--16623791112424__e78f00db-244c-43a8-a892-0a321465829b-1669640420adbd0ab0-0": {
           "type": "column",
@@ -765,6 +764,7 @@
         "template--16623791112424__e78f00db-244c-43a8-a892-0a321465829b-1669640420adbd0ab0-1",
         "template--16623791112424__e78f00db-244c-43a8-a892-0a321465829b-1669640420adbd0ab0-2"
       ],
+      "disabled": true,
       "settings": {
         "class": "",
         "enable_reviews": false,
@@ -787,7 +787,7 @@
       "type": "apps",
       "blocks": {
         "judgeme_review_widget_c19b8159": {
-          "type": "shopify:\/\/apps\/judge-me-product-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
           }
         }
@@ -952,6 +952,34 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
+    },
+    "1694444527f14ba37c": {
+      "type": "apps",
+      "blocks": {
+        "dbaf7fcf-887f-4980-ab18-19f532fc4278": {
+          "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "heading_size": 20,
+            "feed_width": 100,
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "dbaf7fcf-887f-4980-ab18-19f532fc4278"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "30f6f777-c17b-4b4c-ab49-9406fdf90f7f": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -975,6 +1003,8 @@
     "16631503339562ac4d",
     "1659275866c9c44e2c",
     "multicolumn",
-    "product-recommendations"
+    "product-recommendations",
+    "1694444527f14ba37c",
+    "30f6f777-c17b-4b4c-ab49-9406fdf90f7f"
   ]
 }
