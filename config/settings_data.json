@@ -202,7 +202,7 @@
         "type": "announcement",
         "settings": {
           "enable_annoucement": true,
-          "text": "🇲🇽 VIVA MEXICO | 20% OFF >",
+          "text": "🇲🇽 Viva México | 20% OFF >",
           "url": "shopify:\/\/collections\/all",
           "bg": "#f15d5d",
           "color": "#ffffff"
