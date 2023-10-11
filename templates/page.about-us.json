@@ -197,6 +197,7 @@
       "block_order": [
         "1657544636d51c0d3b-0"
       ],
+      "disabled": true,
       "settings": {
         "color_scheme": "background-1",
         "full_width": true,
@@ -269,6 +270,7 @@
         "template--16687635366120__17a6fd3a-0832-4c9f-855c-f46ad97df9ab-buy_buttons-1",
         "template--16687635366120__17a6fd3a-0832-4c9f-855c-f46ad97df9ab-share-1"
       ],
+      "disabled": true,
       "settings": {
         "product": "jabon-peaches-cream",
         "color_scheme": "background-1",
@@ -284,6 +286,7 @@
       "blocks": {
         "1658157521e69ad24f-0": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "{{ section.settings.product.vendor }}",
             "text_style": "uppercase"
@@ -297,6 +300,7 @@
         },
         "1658157521e69ad24f-2": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "{{ section.settings.product.metafields.descriptors.subtitle.value }}",
             "text_style": "subtitle"
@@ -344,6 +348,7 @@
         "1658157521e69ad24f-6",
         "1658157521e69ad24f-7"
       ],
+      "disabled": true,
       "settings": {
         "product": "borrador-de-vello-peach",
         "color_scheme": "background-1",
@@ -373,13 +378,74 @@
         "include_margins": true
       }
     },
-    "ad5966d2-8acf-43bb-8084-0621fa74e22c": {
-      "type": "custom-liquid",
+    "14c536eb-119a-430c-b627-5189400c8503": {
+      "type": "wonderment-faq",
+      "blocks": {
+        "template--16687635366120__14c536eb-119a-430c-b627-5189400c8503-section_heading-1": {
+          "type": "section_heading",
+          "settings": {
+            "title": "General"
+          }
+        },
+        "template--16687635366120__14c536eb-119a-430c-b627-5189400c8503-question-1": {
+          "type": "question",
+          "settings": {
+            "title": "¿Ofrecen Garantía?",
+            "text": "<p>Si, todas las compras en nuestra tienda en línea incluyen una garantía de 30 días.<\/p>"
+          }
+        },
+        "template--16687635366120__14c536eb-119a-430c-b627-5189400c8503-question-2": {
+          "type": "question",
+          "settings": {
+            "title": "¿Sus productos son originales?",
+            "text": "<p>Si, este es el único y exlusivo sitio oficial de Peach.<\/p>"
+          }
+        },
+        "template--16687635366120__14c536eb-119a-430c-b627-5189400c8503-section_heading-2": {
+          "type": "section_heading",
+          "settings": {
+            "title": "Envío"
+          }
+        },
+        "template--16687635366120__14c536eb-119a-430c-b627-5189400c8503-question-3": {
+          "type": "question",
+          "settings": {
+            "title": "¿Desde dónde hacen los envíos?",
+            "text": "<p>Desde la Ciudad de México.<\/p>"
+          }
+        },
+        "template--16687635366120__14c536eb-119a-430c-b627-5189400c8503-question-4": {
+          "type": "question",
+          "settings": {
+            "title": "¿A dónde hacen envíos?",
+            "text": "<p>A todo México y Latinoamérica :)<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16687635366120__14c536eb-119a-430c-b627-5189400c8503-section_heading-1",
+        "template--16687635366120__14c536eb-119a-430c-b627-5189400c8503-question-1",
+        "template--16687635366120__14c536eb-119a-430c-b627-5189400c8503-question-2",
+        "template--16687635366120__14c536eb-119a-430c-b627-5189400c8503-section_heading-2",
+        "template--16687635366120__14c536eb-119a-430c-b627-5189400c8503-question-3",
+        "template--16687635366120__14c536eb-119a-430c-b627-5189400c8503-question-4"
+      ],
       "settings": {
-        "custom_liquid": "",
-        "color_scheme": "background-1",
-        "padding_top": 40,
-        "padding_bottom": 52
+        "show_answers": false,
+        "text_size": 100,
+        "alignment": "center",
+        "text_color": "#121212",
+        "background_color": "linear-gradient(184deg, rgba(255, 255, 255, 1) 7%, rgba(255, 255, 255, 1) 94%)",
+        "border_color": "#121212",
+        "base_width": 80,
+        "max_width": "",
+        "inner_padding": 100,
+        "outer_margin": 0,
+        "custom_css": "",
+        "mobile_custom_css": "",
+        "override_theme_font": false,
+        "heading_font": "serif",
+        "main_font": "sans-serif"
       }
     }
   },
@@ -393,6 +459,6 @@
     "17a6fd3a-0832-4c9f-855c-f46ad97df9ab",
     "1658157521b400206b",
     "169444463840b82f46",
-    "ad5966d2-8acf-43bb-8084-0621fa74e22c"
+    "14c536eb-119a-430c-b627-5189400c8503"
   ]
 }
